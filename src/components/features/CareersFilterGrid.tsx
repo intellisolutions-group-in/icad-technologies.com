@@ -136,8 +136,8 @@ export default function CareersFilterGrid() {
                     <span className="bg-secondary/10 text-secondary dark:bg-secondary-fixed/20 dark:text-secondary-fixed text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">
                       {job.department}
                     </span>
-                    <span className="text-label-sm text-outline flex items-center gap-xs font-bold uppercase tracking-widest">
-                      <Clock className="w-3.5 h-3.5" />
+                    <span className="text-label-sm text-on-surface-variant dark:text-zinc-400 flex items-center gap-xs font-bold uppercase tracking-widest">
+                      <Clock className="w-3.5 h-3.5 text-secondary" />
                       {job.type}
                     </span>
                   </div>
