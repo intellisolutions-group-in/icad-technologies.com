@@ -273,7 +273,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="text-label-sm font-label-sm text-on-surface-variant dark:text-on-primary-container/70">Media Relations</p>
-                    <p className="text-body-lg font-bold text-primary dark:text-on-primary">press@icad.tech</p>
+                    <p className="text-body-lg font-bold text-primary dark:text-on-primary">info@icadtechnologies.com</p>
                   </div>
                 </div>
               </div>
@@ -289,8 +289,8 @@ export default function ContactPage() {
                   <span className="font-label-md text-label-md text-on-surface dark:text-on-primary">
                     Strategic Partnerships
                   </span>
-                  <span className="text-secondary dark:text-secondary-fixed opacity-0 group-hover:opacity-100 transition-opacity font-bold">
-                    partners@icad.tech
+                  <span className="text-secondary dark:text-secondary-fixed opacity-0 group-hover:opacity-100 transition-opacity text-label-md font-bold">
+                    info@icadtechnologies.com
                   </span>
                 </div>
                 
@@ -298,8 +298,8 @@ export default function ContactPage() {
                   <span className="font-label-md text-label-md text-on-surface dark:text-on-primary">
                     Talent Acquisition
                   </span>
-                  <span className="text-secondary dark:text-secondary-fixed opacity-0 group-hover:opacity-100 transition-opacity font-bold">
-                    careers@icad.tech
+                  <span className="text-secondary dark:text-secondary-fixed opacity-0 group-hover:opacity-100 transition-opacity text-label-md font-bold">
+                    info@icadtechnologies.com
                   </span>
                 </div>
                 
@@ -307,8 +307,8 @@ export default function ContactPage() {
                   <span className="font-label-md text-label-md text-on-surface dark:text-on-primary">
                     Customer Success
                   </span>
-                  <span className="text-secondary dark:text-secondary-fixed opacity-0 group-hover:opacity-100 transition-opacity font-bold">
-                    support@icad.tech
+                  <span className="text-secondary dark:text-secondary-fixed opacity-0 group-hover:opacity-100 transition-opacity text-label-md font-bold">
+                    info@icadtechnologies.com
                   </span>
                 </div>
               </div>

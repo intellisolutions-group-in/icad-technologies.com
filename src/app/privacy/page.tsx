@@ -154,7 +154,7 @@ export default function PrivacyPage() {
                   If you have inquiries regarding this privacy statement or our secure data practices, please reach out to our privacy desk:
                 </p>
                 <p className="text-body-md font-bold text-secondary">
-                  Email: privacy@icad.tech
+                  Email: info@icadtechnologies.com
                 </p>
               </div>
 
