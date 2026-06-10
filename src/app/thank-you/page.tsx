@@ -23,22 +23,19 @@ export default function ThankYouPage() {
     name: string;
     email: string;
     department: string;
-    estimate: string | null;
   } | null>(null);
 
   useEffect(() => {
     const name = sessionStorage.getItem("inquiryName");
     const email = sessionStorage.getItem("inquiryEmail");
     const department = sessionStorage.getItem("inquiryDept");
-    const estimate = sessionStorage.getItem("estimateAmount");
 
-    if (name || email || department || estimate) {
+    if (name || email || department) {
       const handle = setTimeout(() => {
         setInquiryDetails({
           name: name || "Valued Client",
           email: email || "",
           department: department || "General Consulting",
-          estimate: estimate || null,
         });
       }, 0);
       return () => clearTimeout(handle);
@@ -86,11 +83,6 @@ export default function ThankYouPage() {
                   <p className="text-body-md text-on-surface dark:text-on-primary">
                     <strong className="text-primary dark:text-on-primary">Interest:</strong> {inquiryDetails.department}
                   </p>
-                  {inquiryDetails.estimate && (
-                    <p className="text-body-md text-on-surface dark:text-on-primary">
-                      <strong className="text-primary dark:text-on-primary">Estimate:</strong> ${inquiryDetails.estimate}
-                    </p>
-                  )}
                 </div>
               )}
             </div>
@@ -216,12 +208,12 @@ export default function ThankYouPage() {
                 Download our latest research on Cybersecurity Resilience and the ROI of Private Cloud Infrastructure.
               </p>
               <div className="flex flex-wrap gap-md">
-                <button className="flex items-center gap-xs text-primary dark:text-on-primary font-label-md hover:text-secondary dark:hover:text-secondary-fixed transition-colors cursor-pointer">
+                <Link href="/contact" className="flex items-center gap-xs text-primary dark:text-on-primary font-label-md hover:text-secondary dark:hover:text-secondary-fixed transition-colors cursor-pointer">
                   <Download className="w-4 h-4" /> Whitepaper: Cyber 2026
-                </button>
-                <button className="flex items-center gap-xs text-primary dark:text-on-primary font-label-md hover:text-secondary dark:hover:text-secondary-fixed transition-colors cursor-pointer">
+                </Link>
+                <Link href="/contact" className="flex items-center gap-xs text-primary dark:text-on-primary font-label-md hover:text-secondary dark:hover:text-secondary-fixed transition-colors cursor-pointer">
                   <Download className="w-4 h-4" /> Report: AI Scalability
-                </button>
+                </Link>
               </div>
             </div>
             
@@ -245,24 +237,24 @@ export default function ThankYouPage() {
             </div>
             
             <div className="flex gap-md">
-              <a
+              <Link
                 className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-primary transition-all duration-300"
-                href="#"
+                href="/contact"
               >
                 <Share2 className="w-5 h-5" />
-              </a>
-              <a
+              </Link>
+              <Link
                 className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-primary transition-all duration-300"
-                href="#"
+                href="/contact"
               >
                 <Users className="w-5 h-5" />
-              </a>
-              <a
+              </Link>
+              <Link
                 className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-primary transition-all duration-300"
-                href="#"
+                href="/contact"
               >
                 <Globe className="w-5 h-5" />
-              </a>
+              </Link>
             </div>
           </div>
 

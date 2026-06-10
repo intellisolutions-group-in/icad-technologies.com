@@ -17,8 +17,8 @@ export const industriesData: Record<string, IndustryData> = {
   "fintech": {
     slug: "fintech",
     title: "FinTech Analytics Platform",
-    tagline: "Secure & Compliant",
-    description: "Engineering secure, compliant fintech ecosystems and real-time trading dashboards for global banking leaders and financial innovators.",
+    tagline: "Secure & Stable",
+    description: "Engineering secure, reliable fintech ecosystems and real-time trading dashboards for global banking leaders and financial innovators.",
     heroImage: "/images/growth_metrics.png",
     heroImageAlt: "Modern trading floor displaying multi-screen stock indices.",
     metrics: [
@@ -30,7 +30,7 @@ export const industriesData: Record<string, IndustryData> = {
     detailsDesc: "Financial technology requires zero margin of error, sub-millisecond data pipelines, and adherence to shifting international standards.",
     highlights: [
       { title: "Distributed Consensus Ledger", desc: "Constructing distributed ledger architectures utilizing strict ACID consistency patterns to process high transaction volumes with zero lock delay.", icon: "Database" },
-      { title: "Real-time Auditing Engine", desc: "Developing automated compliance auditing engines that trace state changes and flag data alterations instantly.", icon: "Shield" },
+      { title: "Real-time Auditing Engine", desc: "Developing automated data auditing engines that trace state changes and flag data alterations instantly.", icon: "Shield" },
       { title: "ML Fraud Mitigation", desc: "Integrating inline machine learning modules that score transactions dynamically to block fraudulent actions with zero added latency.", icon: "Brain" },
       { title: "Secured Vault Encryption", desc: "Leveraging envelope encryption protocols and key management integrations to safeguard cardholder details.", icon: "Lock" }
     ],
@@ -38,8 +38,8 @@ export const industriesData: Record<string, IndustryData> = {
     bentoItems: [
       { title: "Real-time Trading Systems", desc: "Constructing high-performance client boards linking straight to global exchange markets with sub-millisecond execution.", cols: 8, imageUrl: "/images/growth_metrics.png", imageAlt: "Fintech analytics charts showing trade volumes." },
       { title: "Algorithmic Risk Models", desc: "Implementing real-time stress testing simulations to secure portfolios against sudden liquidity drops.", cols: 4, icon: "BarChart3" },
-      { title: "Open Banking APIs", desc: "Developing secure, developer-friendly REST and GraphQL endpoints complying with PSD2 regulations.", cols: 4, icon: "Cpu" },
-      { title: "Institutional Ledger Platforms", desc: "Engineering compliant core-banking engines supporting multi-asset clearing and localized tax reconciliation.", cols: 8, imageUrl: "/images/enterprise_erp.png", imageAlt: "Enterprise server array." }
+      { title: "Open Banking APIs", desc: "Developing secure, developer-friendly REST and GraphQL endpoints.", cols: 4, icon: "Cpu" },
+      { title: "Institutional Ledger Platforms", desc: "Engineering secure core-banking engines supporting multi-asset clearing and localized tax reconciliation.", cols: 8, imageUrl: "/images/enterprise_erp.png", imageAlt: "Enterprise server array." }
     ]
   },
   "manufacturing": {
@@ -101,20 +101,20 @@ export const industriesData: Record<string, IndustryData> = {
   "healthcare": {
     slug: "healthcare",
     title: "Healthcare Management Platform",
-    tagline: "Compliant Systems",
-    description: "Developing interoperable record database networks, secure doctor portals, and telehealth communication channels that satisfy regulatory protocols.",
+    tagline: "Secure Systems",
+    description: "Developing interoperable record database networks, secure doctor portals, and telehealth communication channels that satisfy high security protocols.",
     heroImage: "/images/cybersecurity.png",
     heroImageAlt: "Highly secure sterile research lab facilities.",
     metrics: [
-      { value: "Compliant", label: "Privacy Standards" },
+      { value: "Secure", label: "Privacy Standards" },
       { value: "99.999%", label: "Records Access Uptime" },
       { value: "<50ms", label: "Patient Query Response" }
     ],
     detailsTitle: "Interoperable Patient Portals",
-    detailsDesc: "Unifying clinical data across clinics while ensuring strict compliance with patient privacy laws.",
+    detailsDesc: "Unifying clinical data across clinics while ensuring strict protection of patient privacy.",
     highlights: [
       { title: "HL7/FHIR Data Core", desc: "Constructing interoperable data layers allowing secure, structured patient record sharing across clinics.", icon: "HeartPulse" },
-      { title: "Zero-Knowledge Telehealth", desc: "Engineering encrypted voice/video pathways that guarantee privacy compliance during virtual sessions.", icon: "Video" },
+      { title: "Zero-Knowledge Telehealth", desc: "Engineering encrypted voice/video pathways that guarantee privacy protection during virtual sessions.", icon: "Video" },
       { title: "Multi-Role EHR Access", desc: "Defining granular authorization rules based on OAuth/OIDC protocols to protect patient health records.", icon: "Lock" },
       { title: "Clinical Decision Support", desc: "Developing algorithms to cross-reference patient symptoms against medical databases and highlight care alerts.", icon: "CheckSquare" }
     ],

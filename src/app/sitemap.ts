@@ -3,6 +3,8 @@ import { servicesData } from "@/data/services";
 import { industriesData } from "@/data/industries";
 import { blogArticles } from "@/data/blog";
 
+export const dynamic = "force-static";
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = "https://icadtech.com";
 

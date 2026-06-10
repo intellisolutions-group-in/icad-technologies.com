@@ -12,7 +12,7 @@ if (typeof window !== "undefined") {
 interface MetricCounterProps {
   value: string; // E.g. "35" or "99.99" or "300"
   prefix?: string; // E.g. "-" or "+" or "$"
-  suffix?: string; // E.g. "%" or "★" or "x"
+  suffix?: string; // E.g. "%" or "+" or "x"
   className?: string;
 }
 

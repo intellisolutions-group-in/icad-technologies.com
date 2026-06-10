@@ -100,17 +100,13 @@ export default function CareersPage() {
     if (!talentPoolEmail.trim()) return;
  
     try {
-      const response = await fetch("/api/talent-pool", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: talentPoolEmail }),
-      });
-      const result = await response.json();
-      console.log("Talent Pool API Response:", result);
+      // Simulate form submission delay client-side
+      await new Promise((resolve) => setTimeout(resolve, 800));
+      console.log("Talent Pool Subscription Received (Simulated Static):", talentPoolEmail);
       setTalentPoolSubmitted(true);
       setTalentPoolEmail("");
     } catch (error) {
-      console.error("Talent Pool API Error:", error);
+      console.error("Talent Pool Error:", error);
       setTalentPoolSubmitted(true);
       setTalentPoolEmail("");
     }
@@ -282,8 +278,8 @@ export default function CareersPage() {
                 <div className="benefit-item flex items-start gap-md p-md border-b border-outline-variant/30">
                   <Award className="w-6 h-6 text-secondary shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-bold text-primary dark:text-on-primary">Competitive Compensation</h4>
-                    <p className="text-label-sm text-on-surface-variant dark:text-on-primary-container/75">Top-tier salary packages and performance-linked equity options.</p>
+                    <h4 className="font-bold text-primary dark:text-on-primary">Professional Recognition</h4>
+                    <p className="text-label-sm text-on-surface-variant dark:text-on-primary-container/75">Clear growth paths, skill certifications, and performance-based recognition programs.</p>
                   </div>
                 </div>
                 

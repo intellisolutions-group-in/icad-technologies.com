@@ -86,7 +86,7 @@ export const blogArticles: Record<string, BlogArticle> = {
     readTime: "15 min read",
     date: "October 10, 2024",
     authorName: "SecOps & Cybersecurity Division",
-    authorTitle: "Security & Network Compliance",
+    authorTitle: "Security & Network Infrastructure",
     authorImage: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%2318181b'/%3E%3Ccircle cx='50' cy='50' r='30' fill='none' stroke='%23ff4b2b' stroke-width='4'/%3E%3Cpath d='M50 35 L50 65 M35 50 L65 50' stroke='%23ff4b2b' stroke-width='4'/%3E%3C/svg%3E",
     authorBio: "The SecOps division focuses on defense-grade infrastructure hardening, threat intelligence, continuous auditing, and zero-trust protocol modeling.",
     coverImage: "/images/cybersecurity.png",
@@ -157,7 +157,7 @@ export const blogArticles: Record<string, BlogArticle> = {
     excerpt: "How financial institutions are integrating specialized LLMs and Retrieval-Augmented Generation (RAG) to automate customer support and transaction queries.",
     contentHtml: `
       <p class="text-body-lg font-body-lg text-on-surface-variant mb-xl leading-relaxed">
-        Generative AI is unlocking massive capabilities for modern banking. By loading compliance guidelines and historic data logs into private vector spaces (RAG), banks resolve complex transaction inquiries securely in real-time.
+        Generative AI is unlocking massive capabilities for modern banking. By loading internal guidelines and historic data logs into private vector spaces (RAG), banks resolve complex transaction inquiries securely in real-time.
       </p>
     `,
     relatedSlugs: ["the-future-of-ai-in-enterprise-infrastructure", "zero-trust-beyond-the-buzzword"]
@@ -170,7 +170,7 @@ export const blogArticles: Record<string, BlogArticle> = {
     readTime: "11 min read",
     date: "November 28, 2024",
     authorName: "SecOps & Cybersecurity Division",
-    authorTitle: "Security & Network Compliance",
+    authorTitle: "Security & Network Infrastructure",
     authorImage: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%2318181b'/%3E%3Ccircle cx='50' cy='50' r='30' fill='none' stroke='%23ff4b2b' stroke-width='4'/%3E%3Cpath d='M50 35 L50 65 M35 50 L65 50' stroke='%23ff4b2b' stroke-width='4'/%3E%3C/svg%3E",
     authorBio: "The SecOps division focuses on defense-grade infrastructure hardening, threat intelligence, continuous auditing, and zero-trust protocol modeling.",
     coverImage: "/images/cybersecurity.png",

@@ -48,7 +48,7 @@ export default function PrivacyPage() {
         <section className="relative py-xl px-margin-mobile md:px-margin-desktop bg-surface-container-low border-b border-outline/30 dark:bg-zinc-900">
           <div className="max-w-[1440px] mx-auto space-y-sm">
             <span className="privacy-header-tag inline-block px-3 py-1 bg-secondary text-on-secondary font-label-sm text-label-sm rounded-full font-bold uppercase dark:bg-secondary-fixed dark:text-on-secondary-fixed">
-              Compliance & Safety
+              Security & Safety
             </span>
             <h1 className="privacy-title text-display-lg-mobile md:text-display-lg font-display-lg text-primary dark:text-white leading-tight">
               Privacy Policy

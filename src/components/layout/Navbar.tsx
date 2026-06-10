@@ -48,7 +48,7 @@ const industryItems = [
   { name: "FinTech", href: "/industries/fintech", desc: "Secure trading & analytics", icon: Coins },
   { name: "Manufacturing", href: "/industries/manufacturing", desc: "Modern IoT & ERP", icon: Factory },
   { name: "Logistics", href: "/industries/logistics", desc: "Dynamic route tracking hubs", icon: Truck },
-  { name: "Healthcare", href: "/industries/healthcare", desc: "Secure compliant record networks", icon: Activity }
+  { name: "Healthcare", href: "/industries/healthcare", desc: "Secure healthcare record networks", icon: Activity }
 ];
 
 export default function Navbar() {

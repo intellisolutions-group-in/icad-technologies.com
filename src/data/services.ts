@@ -85,7 +85,7 @@ export const servicesData: Record<string, ServiceData> = {
     challenges: [
       { title: "Latency Attrition", desc: "Every minimal latency of delay impacts conversion by 7%. We eliminate bottlenecks through edge delivery and hydration optimization.", icon: "speed" },
       { title: "Device Diversity", desc: "Ensuring consistent logic across thousands of+ device profiles requires a fluid, component-driven architectural mindset.", icon: "mobile_friendly" },
-      { title: "Security Integrity", desc: "Protecting user data isn't a feature; it's a foundation. Our builds integrate rigorous security compliance and zero-trust protocols.", icon: "security" }
+      { title: "Security Integrity", desc: "Protecting user data isn't a feature; it's a foundation. Our builds integrate rigorous security architectures and zero-trust protocols.", icon: "security" }
     ],
     approachTitle: "The ICAD Full-stack Approach",
     bentoItems: [
@@ -250,7 +250,7 @@ export const servicesData: Record<string, ServiceData> = {
     competenciesTitle: "Enterprise Scope",
     competencies: [
       { title: "Global Supply Chain Module", desc: "Live shipment tracking, automated warehouse restocking alerts, and supplier portals.", icon: "precision_manufacturing" },
-      { title: "Financial Ledger Systems", desc: "Multi-currency ledgers, tax integrations, and automated compliance reporting.", icon: "query_stats" }
+      { title: "Financial Ledger Systems", desc: "Multi-currency ledgers, tax integrations, and automated operational reporting.", icon: "query_stats" }
     ],
     techStackTitle: "Enterprise Frameworks",
     techStack: ["Java/Spring Boot", "PostgreSQL", "React", "Docker", "Kubernetes", "SAP Integrations"],
@@ -318,7 +318,7 @@ export const servicesData: Record<string, ServiceData> = {
     challengesDesc: "Sifting through terabytes of corporate content is slow and expensive. We build models that think.",
     challenges: [
       { title: "Compute Cost", desc: "Optimizing inference paths to keep cloud hosting costs under control.", icon: "bolt" },
-      { title: "Explainability Gap", desc: "Auditing AI decisions to verify safety and regulatory compliance.", icon: "security" }
+      { title: "Explainability Gap", desc: "Auditing AI decisions to verify safety and operational integrity.", icon: "security" }
     ],
     approachTitle: "Autonomous Enterprise AI",
     bentoItems: [
@@ -442,7 +442,7 @@ export const servicesData: Record<string, ServiceData> = {
     competenciesTitle: "Security Competencies",
     competencies: [
       { title: "Penetration Testing", desc: "Simulating attacks to locate and resolve potential entry points before exploits occur.", icon: "bolt" },
-      { title: "Compliance Mapping", desc: "Preparing infrastructures to satisfy rigorous regulatory and compliance requirements.", icon: "admin_panel_settings" }
+      { title: "Infrastructure Hardening", desc: "Preparing and structuring high-performance infrastructures to satisfy robust security standards.", icon: "admin_panel_settings" }
     ],
     techStackTitle: "Security Stack",
     techStack: ["Vault", "Okta", "WAF", "SIEM Tools", "AWS GuardDuty", "SonarQube"],
@@ -615,7 +615,7 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     faqTitle: "Google Ads FAQ",
     faqs: [
-      { q: "What is your management fee pricing model?", a: "We work on a tier system based on monthly advertising budgets, ensuring alignment with your target acquisition limits." }
+      { q: "How is your management model structured?", a: "We work on a custom advisory and management structure based on client scope, ensuring alignment with your target goals." }
     ]
   },
   "digital-marketing": {

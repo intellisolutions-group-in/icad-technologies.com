@@ -30,15 +30,18 @@ export default function CareersFilterGrid() {
     }
  
     try {
-      const response = await fetch("/api/careers/apply", {
-        method: "POST",
-        body: data,
+      // Simulate form submission delay client-side
+      await new Promise((resolve) => setTimeout(resolve, 800));
+      console.log("Job Application Received (Simulated Static):", {
+        name: appliedName,
+        email: appliedEmail,
+        portfolio: appliedPortfolio,
+        cover: appliedCover,
+        resumeName: appliedResume ? appliedResume.name : "None",
       });
-      const result = await response.json();
-      console.log("Job Application API Response:", result);
       setAppSubmitted(true);
     } catch (error) {
-      console.error("Job Application API Error:", error);
+      console.error("Job Application Error:", error);
       setAppSubmitted(true);
     }
   };

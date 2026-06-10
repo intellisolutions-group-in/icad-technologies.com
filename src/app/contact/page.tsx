@@ -90,15 +90,11 @@ export default function ContactPage() {
  
     setIsSubmitting(true);
     try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
-      const result = await response.json();
-      console.log("Contact Inquiry API Response:", result);
+      // Simulate form submission delay client-side
+      await new Promise((resolve) => setTimeout(resolve, 800));
+      console.log("Contact Inquiry Received (Simulated Static):", formData);
     } catch (error) {
-      console.error("Contact Inquiry API Error:", error);
+      console.error("Contact Inquiry Error:", error);
     } finally {
       setIsSubmitting(false);
     }

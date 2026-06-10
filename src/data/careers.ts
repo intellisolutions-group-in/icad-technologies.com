@@ -12,7 +12,7 @@ export const jobOpenings: JobOpening[] = [
     id: "a",
     title: "Senior Cloud Infrastructure Architect",
     department: "Engineering",
-    location: "Remote",
+    location: "Remote (India)",
     type: "Full-time",
     link: "#"
   },
@@ -20,7 +20,7 @@ export const jobOpenings: JobOpening[] = [
     id: "b",
     title: "Principal Machine Learning Engineer",
     department: "AI & Data",
-    location: "Office",
+    location: "Office (Bangalore)",
     type: "Full-time",
     link: "#"
   },
@@ -28,11 +28,11 @@ export const jobOpenings: JobOpening[] = [
     id: "c",
     title: "Threat Intelligence Specialist",
     department: "Cybersecurity",
-    location: "Hybrid",
+    location: "Hybrid (Mumbai)",
     type: "Full-time",
     link: "#"
   }
 ];
 
-export const locationsList = ["All Locations", "Office", "Remote", "Hybrid"];
+export const locationsList = ["All Locations", "Office (Bangalore)", "Remote (India)", "Hybrid (Mumbai)"];
 export const departmentsList = ["All Departments", "Engineering", "AI & Data", "Cybersecurity"];

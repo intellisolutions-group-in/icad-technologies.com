@@ -31,7 +31,7 @@ const servicesData = [
   {
     title: "Cybersecurity",
     href: "/services/cybersecurity",
-    desc: "Advanced threat intelligence and zero-trust framework implementation. Safeguard your operational assets and achieve compliance at speed.",
+    desc: "Advanced threat intelligence and zero-trust framework implementation. Safeguard your operational assets and achieve security at speed.",
     icon: Shield,
     bgImage: "/images/cybersecurity.png"
   },
@@ -473,7 +473,7 @@ export default function HomePage() {
                     </h3>
                   </Link>
                   <p className="text-on-surface-variant dark:text-on-primary-container/85 text-body-md">
-                    Secure, compliant fintech ecosystems for banking leaders.
+                    Secure fintech ecosystems for banking leaders.
                   </p>
                 </div>
               </div>
@@ -591,7 +591,7 @@ export default function HomePage() {
               </p>
             </div>
             <div className="text-[12px] font-mono font-bold text-outline uppercase tracking-wider hidden md:block select-none">
-              Scroll Down to Traverse // ➔
+              Scroll Down to Traverse
             </div>
           </div>
 
@@ -627,7 +627,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* Security & Compliance Section (Trust & Care) */}
+        {/* Security Section (Trust & Care) */}
         <section className="security-section py-xl px-margin-mobile md:px-margin-desktop bg-surface-container border-y border-outline/30" data-cursor-guide="Enterprise Shield - Uncompromising security & trust standards">
           <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-xl items-center">
             <div className="security-text lg:col-span-5 space-y-md">
@@ -638,7 +638,7 @@ export default function HomePage() {
                 Sovereign Security. Absolute Trust.
               </h2>
               <p className="text-body-lg text-on-surface-variant dark:text-on-primary-container/85 leading-relaxed">
-                We believe that trust is engineered, not assumed. Every line of code and infrastructure component we deploy complies with strict security frameworks to protect your data assets.
+                We believe that trust is engineered, not assumed. Every line of code and infrastructure component we deploy is designed with strict security frameworks to protect your data assets.
               </p>
               <div className="grid grid-cols-2 gap-md pt-sm">
                 <div className="flex items-center gap-xs">
@@ -663,7 +663,7 @@ export default function HomePage() {
              <div className="security-visual lg:col-span-7 neumorphic-raised p-md md:p-lg relative overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-secondary/5 rounded-full blur-2xl"></div>
               <h4 className="font-headline-md text-headline-md text-primary dark:text-on-primary border-b border-outline/30 pb-xs mb-md">
-                Compliance Standards & Safe Practices
+                Security Standards & Safe Practices
               </h4>
               <ul className="space-y-sm text-body-md text-on-surface-variant dark:text-on-primary-container/85">
                 <li className="flex gap-sm">
@@ -729,7 +729,7 @@ export default function HomePage() {
                   ))}
                 </div>
                 <p className="text-on-surface-variant dark:text-on-primary-container/80 text-label-md leading-relaxed">
-                  Our databases are designed for multi-region clustering, high read-write speeds, and compliance. Microservices are built using low-latency compile languages.
+                  Our databases are designed for multi-region clustering and high read-write speeds. Microservices are built using low-latency compile languages.
                 </p>
               </div>
 

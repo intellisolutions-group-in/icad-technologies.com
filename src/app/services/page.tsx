@@ -53,7 +53,7 @@ const categories = [
     icon: Cloud,
     services: [
       { slug: "cloud-infrastructure", name: "Cloud Architecture (AWS/Azure)", desc: "Multi-region cloud strategies designed for high uptime and dynamic autoscaling capabilities.", icon: "Cloud" },
-      { slug: "cybersecurity", name: "Cybersecurity & Compliance", desc: "Secure and regulatory compliant security frameworks including penetration testing and continuous security operations centers.", icon: "Shield" },
+      { slug: "cybersecurity", name: "Cybersecurity & Protection", desc: "Secure and robust security frameworks including penetration testing and continuous security operations centers.", icon: "Shield" },
       { slug: "hosting", name: "Managed Edge Hosting", desc: "Edge CDN, load balancing, and DNS resolution setups configured for fast TTFB latency.", icon: "Cloud" },
       { slug: "devops", name: "DevOps & CI/CD Services", desc: "Automate packaging and deployment cycles to achieve stable, zero-downtime releases.", icon: "Cloud" }
     ]

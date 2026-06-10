@@ -43,7 +43,7 @@ const operationalPillars = [
   {
     title: "Strategic Advisory",
     role: "Governance & Enterprise Risk",
-    desc: "Guiding enterprise digital infrastructure, policy framework alignment, and tech stack compliance models.",
+    desc: "Guiding enterprise digital infrastructure, policy framework alignment, and tech stack integration models.",
     image: "/images/it_consulting.png"
   },
   {
@@ -68,15 +68,33 @@ const milestones = [
     label: "SINCE START"
   },
   {
-    year: "2009",
-    title: "Digital Pivot",
-    desc: "Successfully executed first national-scale digital infrastructure project.",
-    label: "EXPANSION"
+    year: "2008",
+    title: "Scale Integration",
+    desc: "Expanded operations into distributed computing models and large scale storage systems.",
+    label: "INCEPTION"
+  },
+  {
+    year: "2013",
+    title: "Cloud Migration",
+    desc: "Pioneered virtual server orchestration and high-performance cloud deployment frameworks.",
+    label: "CLOUDBOUND"
+  },
+  {
+    year: "2018",
+    title: "AI & ML Integration",
+    desc: "Introduced advanced threat detection algorithms and predictive intelligence modules.",
+    label: "INTELLIGENT SYSTEMS"
+  },
+  {
+    year: "2022",
+    title: "Edge Infrastructures",
+    desc: "Deployed localized routing systems and secure consensus engines for financial systems.",
+    label: "LOW LATENCY"
   },
   {
     year: "2026",
     title: "Enterprise Scale",
-    desc: "Inauguration of technical centers and a presence spanning 45 countries.",
+    desc: "Inauguration of key technical centers and an expanded client network.",
     label: "PRESENT DAY"
   }
 ];
@@ -260,11 +278,11 @@ export default function AboutPage() {
         <HeroSection
           title="Engineering the Future of Enterprise Technology."
           tagline="Enterprise Innovation"
-          description="For over three decades, ICAD Technologies has been the silent engine behind complex infrastructure, digital transformation, and sovereign security solutions across four continents."
+          description="For over two decades, ICAD Technologies has been the silent engine behind complex infrastructure, digital transformation, and sovereign security solutions for enterprise clients."
           heroImage="/images/about_office.png"
           heroImageAlt="Futuristic office buildings against twilight skies."
           primaryBtnText="Download Fact Sheet"
-          primaryBtnLink="#"
+          primaryBtnLink="/contact"
           isDark={true}
           minHeightClass="min-h-[819px]"
         />
@@ -380,7 +398,7 @@ export default function AboutPage() {
                   <div>
                     <p className="font-headline-md text-headline-md text-primary dark:text-on-primary">Corporate Systems</p>
                     <p className="text-on-surface-variant dark:text-on-primary-container/80 text-body-md">
-                      Standardizing corporate software integrations and compliance frameworks.
+                      Standardizing corporate software integrations and security frameworks.
                     </p>
                   </div>
                 </div>
