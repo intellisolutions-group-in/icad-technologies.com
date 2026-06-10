@@ -501,7 +501,7 @@ export const servicesData: Record<string, ServiceData> = {
       { q: "What is the guaranteed uptime?", a: "We provide a 99.99% uptime SLA across our global edge nodes, backed by financial credits if performance metrics fall below agreed thresholds." },
       { q: "How does the gateway handle DDoS attacks?", a: "Our gateway includes L3/L4/L7 DDoS protection that automatically scrubs malicious traffic at the edge before it reaches your origin servers." },
       { q: "Can I use my existing SSL certificates?", a: "Yes, you can upload custom certificates or use our automated managed certificate service powered by industry-standard CAs." },
-      { q: "Where are your edge locations?", a: "We operate over 200+ edge locations across all major continents, with high-density presence in APAC, EMEA, and North America." }
+      { q: "Where are your edge nodes deployed?", a: "We operate a distributed network of edge nodes across major transit routes to provide high-performance caching, low-latency API delivery, and DNS steering." }
     ]
   },
   "data-analytics": {

@@ -2,7 +2,7 @@
 
 import React, { useRef } from "react";
 import Link from "next/link";
-import { ShieldCheck, Target, Award, Compass, Heart, MapPin, Building, Globe } from "lucide-react";
+import { ShieldCheck, Target, Award, Compass, Heart, Cpu, Brain } from "lucide-react";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import HeroSection from "@/components/sections/HeroSection";
@@ -365,7 +365,7 @@ export default function AboutPage() {
         </section>
 
         {/* Scale */}
-        <section className="scale-section py-xl bg-surface-container-low px-margin-mobile md:px-margin-desktop overflow-hidden" data-cursor-guide="Strategic Scale - Distributing expertise across global centers">
+        <section className="scale-section py-xl bg-surface-container-low px-margin-mobile md:px-margin-desktop overflow-hidden" data-cursor-guide="Strategic Scale - Distributing expertise across enterprise teams">
           <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-xl items-center">
             <div className="scale-text lg:w-1/2 space-y-md">
               <h2 className="text-primary dark:text-on-primary font-headline-lg text-headline-lg">
@@ -376,20 +376,20 @@ export default function AboutPage() {
               </p>
               <div className="space-y-md pt-sm">
                 <div className="flex items-start gap-md">
-                  <MapPin className="w-6 h-6 text-secondary dark:text-secondary-fixed shrink-0 mt-1" />
+                  <Cpu className="w-6 h-6 text-secondary dark:text-secondary-fixed shrink-0 mt-1" />
                   <div>
-                    <p className="font-headline-md text-headline-md text-primary dark:text-on-primary">Corporate Office</p>
+                    <p className="font-headline-md text-headline-md text-primary dark:text-on-primary">Corporate Systems</p>
                     <p className="text-on-surface-variant dark:text-on-primary-container/80 text-body-md">
-                      Central Technology Park, Technology Sector
+                      Standardizing corporate software integrations and compliance frameworks.
                     </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-md">
-                  <Building className="w-6 h-6 text-secondary dark:text-secondary-fixed shrink-0 mt-1" />
+                  <Brain className="w-6 h-6 text-secondary dark:text-secondary-fixed shrink-0 mt-1" />
                   <div>
                     <p className="font-headline-md text-headline-md text-primary dark:text-on-primary">Research & Development</p>
                     <p className="text-on-surface-variant dark:text-on-primary-container/80 text-body-md">
-                      Research Sector, Technology Park Block
+                      Pioneering next-generation architecture models and prototype systems.
                     </p>
                   </div>
                 </div>
