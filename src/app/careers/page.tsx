@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useRef } from "react";
-import { Award, Globe, Heart, BookOpen, Send } from "lucide-react";
+import { Award, Globe, Heart, BookOpen, Send, Terminal, Brain } from "lucide-react";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import CareersFilterGrid from "@/components/features/CareersFilterGrid";
@@ -237,16 +237,12 @@ export default function CareersPage() {
                   &ldquo;At ICAD, the scale of the problems we solve is unparalleled. You&apos;re not just writing code; you&apos;re designing systems that power modern enterprises.&rdquo;
                 </p>
                 <div className="flex items-center gap-md pt-md">
-                  <div className="w-12 h-12 rounded-full overflow-hidden shrink-0">
-                    <img
-                      className="w-full h-full object-cover"
-                      alt="Ketan Varma"
-                      src="/images/leader_ceo.png"
-                    />
+                  <div className="w-12 h-12 rounded-full bg-surface-container-high dark:bg-primary flex items-center justify-center shrink-0 border border-outline-variant">
+                    <Terminal className="w-6 h-6 text-secondary" />
                   </div>
                   <div>
-                    <p className="font-bold text-primary dark:text-on-primary">Ketan Varma</p>
-                    <p className="text-label-sm text-on-surface-variant dark:text-on-primary-container/70">Principal Solutions Architect</p>
+                    <p className="font-bold text-primary dark:text-on-primary">Enterprise Engineering Division</p>
+                    <p className="text-label-sm text-on-surface-variant dark:text-on-primary-container/70">Principal Solutions Architect Team</p>
                   </div>
                 </div>
               </div>
@@ -256,16 +252,12 @@ export default function CareersPage() {
                   &ldquo;The culture of precision here pushes you to be your best. The mentorship from industry titans has accelerated my career growth immensely.&rdquo;
                 </p>
                 <div className="flex items-center gap-md pt-md">
-                  <div className="w-12 h-12 rounded-full overflow-hidden shrink-0">
-                    <img
-                      className="w-full h-full object-cover"
-                      alt="Sneha Joshi"
-                      src="/images/leader_ai.png"
-                    />
+                  <div className="w-12 h-12 rounded-full bg-surface-container-high dark:bg-primary flex items-center justify-center shrink-0 border border-outline-variant">
+                    <Brain className="w-6 h-6 text-secondary" />
                   </div>
                   <div>
-                    <p className="font-bold text-primary dark:text-on-primary">Sneha Joshi</p>
-                    <p className="text-label-sm text-on-surface-variant dark:text-on-primary-container/70">Lead Data Scientist</p>
+                    <p className="font-bold text-primary dark:text-on-primary">AI & Data Systems Lab</p>
+                    <p className="text-label-sm text-on-surface-variant dark:text-on-primary-container/70">Lead Analytics Group</p>
                   </div>
                 </div>
               </div>

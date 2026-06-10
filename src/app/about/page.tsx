@@ -39,24 +39,24 @@ const values = [
   }
 ];
 
-const leaders = [
+const operationalPillars = [
   {
-    name: "Vikram Malhotra",
-    role: "Chief Executive Officer",
-    desc: "Former CTO of Enterprise Infrahub, with 25 years in sovereign security systems.",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuC4o8w2i3ZFX8ixoACviVOCIcHEYQ4neigfw99GObe45eDU85BKy3SgC2J-t4qRVTRx4LnLhCNzuG3ZOiLIvitxUkylpB9JzwPs7iZAfEMbanncaM-aY-26NxpHQlwENu6ACHulul05om3JBmUkkBHmSaansz-wyLDbaWiJecWy_xCVBQf8PnpZLLHZV63TtCZk66xGe9EbItgk2nnNVK1af3Fj9PHyBUe0emjqGfxFA3NDHYa4uatxtRU6LvCReispF5Sj9ScZfWc"
+    title: "Strategic Advisory",
+    role: "Governance & Enterprise Risk",
+    desc: "Guiding enterprise digital infrastructure, policy framework alignment, and tech stack compliance models.",
+    image: "/images/it_consulting.png"
   },
   {
-    name: "Dr. Aditi Iyer",
-    role: "Director of AI & Cloud",
-    desc: "PhD in Computational Intelligence from MIT, pioneer in autonomous grid systems.",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuBH0Swr09G1pBt1yqpGkzDRA7RgkMr1pMGOVPzj-78_Tm4aBeHEsPM1RP_7aSnsgdOQn5jgHgQiJSDGYBLNLm6WTQL6-FKhnvyLJZ5LmHAbNXKcjd8Uh_v6REV2fW-XMMP4UPEi8bFfJQEVo0GaZ_cJWRn1MU6Di8wE7er9yQFUMgqlxZ3XcUMCb7WX024B7V38xJyNbHm9-VeBS5jfU_wrkpZ9Q53bklZpX0OXqHU5iJDPQXs0KrinmPfLOcu3PpWJ6BvOtZvw8RY"
+    title: "Advanced Engineering",
+    role: "AI Integration & Cloud Architecture",
+    desc: "Deploying high-performance computing clusters, autonomous data pipelines, and distributed cloud configurations.",
+    image: "/images/ai_solutions.png"
   },
   {
-    name: "Rohan Mehta",
-    role: "Chief Operations Officer",
-    desc: "Architect of ICAD's expansion into enterprise sectors, expert in logistical scale.",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuBa2tAiBGyJaqNhAM5mzNtI2rEhnyqHPg0-dkwdAogaWN_nP1UH8D6FJdbdvXG8eqscCcJyOH4PVp-QbNe-hkjAUa95fIfsPso1AgGOWj-aJfES_4nGvUw6K8qTOX5oUEEqH8NbCbDeTQYeW6MoSx5KOHqASKk9hBCEC2b-Wxx2L210_zYBqfS-_KI8VhD00Gu8HvZJUCZrFMMkNpdT5RoRr9XNINrPEJjLKWgll8-nSjbK3heGi4XwwGMZKfpRrSQHMWo9x0vCePQ"
+    title: "Operational Logistics",
+    role: "DevOps & Continuous Orchestration",
+    desc: "Automating software release cycles, standardized CI/CD pipelines, and high-availability systems scaling.",
+    image: "/images/devops.png"
   }
 ];
 
@@ -412,32 +412,32 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Minds behind ICAD */}
-        <section className="leaders-section py-xl px-margin-mobile md:px-margin-desktop bg-surface" data-cursor-guide="Minds Behind ICAD - Meet our executive leadership team">
+        {/* Operational Pillars */}
+        <section className="leaders-section py-xl px-margin-mobile md:px-margin-desktop bg-surface" data-cursor-guide="Operational Pillars - Core functional groups at ICAD">
           <div className="max-w-7xl mx-auto space-y-lg">
             <div className="text-center max-w-2xl mx-auto space-y-xs">
-              <h2 className="text-primary font-headline-lg text-headline-lg">The Minds Behind ICAD</h2>
+              <h2 className="text-primary font-headline-lg text-headline-lg">Operational Pillars</h2>
               <p className="text-on-surface-variant text-body-md leading-relaxed">
-                A multi-disciplinary team of visionaries committed to engineering excellence.
+                A multi-disciplinary ecosystem committed to engineering excellence.
               </p>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-xl max-w-6xl mx-auto">
-              {leaders.map((leader, idx) => (
+              {operationalPillars.map((pillar, idx) => (
                 <div key={idx} className="leader-card group space-y-md">
                   <div className="aspect-[4/5] bg-surface-container-highest mb-md overflow-hidden rounded-lg relative shadow-sm">
                     <img
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 pointer-events-none"
-                      src={leader.name === "Vikram Malhotra" ? "/images/leader_ceo.png" : leader.name === "Dr. Aditi Iyer" ? "/images/leader_ai.png" : "/images/leader_coo.png"}
-                      alt={leader.name}
+                      src={pillar.image}
+                      alt={pillar.title}
                     />
                   </div>
-                  <h4 className="text-primary dark:text-on-primary font-headline-md text-headline-md">{leader.name}</h4>
+                  <h4 className="text-primary dark:text-on-primary font-headline-md text-headline-md">{pillar.title}</h4>
                   <p className="text-secondary dark:text-secondary-fixed font-label-md text-label-md uppercase">
-                    {leader.role}
+                    {pillar.role}
                   </p>
                   <p className="text-on-surface-variant dark:text-on-primary-container/85 text-label-sm font-label-sm leading-relaxed">
-                    {leader.desc}
+                    {pillar.desc}
                   </p>
                 </div>
               ))}

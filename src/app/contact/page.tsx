@@ -403,25 +403,19 @@ export default function ContactPage() {
               </Button>
             </div>
             
-            <div className="flex gap-xs justify-center md:justify-start">
-              <img
-                className="w-10 h-10 rounded-full border-2 border-white object-cover"
-                alt="Consultant Ketan Varma"
-                src="/images/leader_ceo.png"
-              />
-              <img
-                className="w-10 h-10 rounded-full border-2 border-white object-cover"
-                alt="Consultant Sneha Joshi"
-                src="/images/leader_ai.png"
-              />
-              <img
-                className="w-10 h-10 rounded-full border-2 border-white object-cover"
-                alt="Consultant Aditi Iyer"
-                src="/images/leader_coo.png"
-              />
-              <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center text-label-sm border-2 border-white/20 text-white font-bold">
-                Team
+            <div className="flex items-center gap-sm justify-center md:justify-start">
+              <div className="flex -space-x-2">
+                <div className="w-10 h-10 rounded-full bg-secondary text-on-secondary flex items-center justify-center text-label-sm border-2 border-white dark:border-zinc-900 font-bold shrink-0 shadow-sm">
+                  DS
+                </div>
+                <div className="w-10 h-10 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center text-label-sm border-2 border-white dark:border-zinc-900 font-bold shrink-0 shadow-sm">
+                  ENG
+                </div>
+                <div className="w-10 h-10 rounded-full bg-surface-container-highest text-on-surface flex items-center justify-center text-label-sm border-2 border-white dark:border-zinc-900 font-bold shrink-0 shadow-sm">
+                  PM
+                </div>
               </div>
+              <span className="text-white/80 text-label-sm font-semibold">Solutions Architect Team</span>
             </div>
           </div>
         </section>
