@@ -45,7 +45,7 @@ const servicesData = [
   {
     title: "Software Engineering",
     href: "/services/web-development",
-    desc: "High-performance bespoke web, mobile, and desktop applications. Engineered using Next.js, React Native, and Go for optimal user experience and latency.",
+    desc: "High-performance bespoke web, mobile, and desktop applications. Engineered using modern frameworks for optimal user experience and latency.",
     icon: Laptop,
     bgImage: "/images/software_engineering.png"
   },
@@ -527,43 +527,43 @@ export default function HomePage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter text-center">
               <div className="impact-card p-md xl:p-lg neumorphic-raised rounded hover:scale-[1.02] active:scale-[0.98] transition-all duration-300">
                 <div className="text-metric-value font-display-lg text-primary dark:text-on-primary font-bold mb-xs">
-                  <MetricCounter value="-35%" />
+                  <MetricCounter value="Reduced" />
                 </div>
                 <h4 className="text-headline-md font-headline-md text-secondary mb-2">
                   Cloud Overhead
                 </h4>
                 <p className="text-on-surface-variant dark:text-on-primary-container/80 text-label-sm leading-relaxed">
-                  Average hosting overhead savings realized through automated resource scale sizing.
+                  Hosting overhead savings realized through automated resource scale sizing.
                 </p>
               </div>
 
               <div className="impact-card p-md xl:p-lg neumorphic-raised rounded hover:scale-[1.02] active:scale-[0.98] transition-all duration-300">
                 <div className="text-metric-value font-display-lg text-primary dark:text-on-primary font-bold mb-xs">
-                  <MetricCounter value="99.99%" />
+                  <MetricCounter value="High" />
                 </div>
                 <h4 className="text-headline-md font-headline-md text-secondary mb-2">
                   System Uptime
                 </h4>
                 <p className="text-on-surface-variant dark:text-on-primary-container/80 text-label-sm leading-relaxed">
-                  Guaranteed service availability delivered through multi-region Kubernetes routing.
+                  Reliable service availability delivered through multi-region routing.
                 </p>
               </div>
 
               <div className="impact-card p-md xl:p-lg neumorphic-raised rounded hover:scale-[1.02] active:scale-[0.98] transition-all duration-300">
                 <div className="text-metric-value font-display-lg text-primary dark:text-on-primary font-bold mb-xs">
-                  <MetricCounter value="100%" />
+                  <MetricCounter value="Improved" />
                 </div>
                 <h4 className="text-headline-md font-headline-md text-secondary mb-2">
                   Organic Traffic
                 </h4>
                 <p className="text-on-surface-variant dark:text-on-primary-container/80 text-label-sm leading-relaxed">
-                  Traffic increase realized across search engines by deploying semantic layouts and CWV fixes.
+                  Traffic growth across search engines by deploying semantic layouts and CWV fixes.
                 </p>
               </div>
 
               <div className="impact-card p-md xl:p-lg neumorphic-raised rounded hover:scale-[1.02] active:scale-[0.98] transition-all duration-300">
                 <div className="text-metric-value font-display-lg text-primary dark:text-on-primary font-bold mb-xs">
-                  <MetricCounter value="10x" />
+                  <MetricCounter value="Accelerated" />
                 </div>
                 <h4 className="text-headline-md font-headline-md text-secondary mb-2">
                   Pipeline Velocity
@@ -705,7 +705,7 @@ export default function HomePage() {
                   Frontend & Experience
                 </h3>
                 <div className="flex flex-wrap gap-xs mb-md">
-                  {["Next.js", "React", "TypeScript", "Tailwind CSS", "GSAP", "Framer"].map((item, idx) => (
+                  {["Modern Web Frameworks", "TypeScript", "Utility CSS", "Animation Libraries", "Motion Design"].map((item, idx) => (
                     <span key={idx} className="px-sm py-1 bg-surface-container text-primary dark:bg-primary dark:text-on-primary font-bold text-[11px] rounded">
                       {item}
                     </span>
@@ -722,7 +722,7 @@ export default function HomePage() {
                   Backend & Database
                 </h3>
                 <div className="flex flex-wrap gap-xs mb-md">
-                  {["Go (Golang)", "Rust", "Spring Boot", "PostgreSQL", "Redis", "Snowflake"].map((item, idx) => (
+                  {["Compiled Languages", "Relational Databases", "In-Memory Caches", "Cloud Data Warehouses"].map((item, idx) => (
                     <span key={idx} className="px-sm py-1 bg-surface-container text-primary dark:bg-primary dark:text-on-primary font-bold text-[11px] rounded">
                       {item}
                     </span>
@@ -739,7 +739,7 @@ export default function HomePage() {
                   Infrastructure & DevOps
                 </h3>
                 <div className="flex flex-wrap gap-xs mb-md">
-                  {["Docker", "Kubernetes", "Terraform", "AWS", "Azure CDNs", "GitHub Actions"].map((item, idx) => (
+                  {["Containers", "Orchestration", "Infrastructure as Code", "Cloud Platforms", "Edge CDNs", "CI/CD Pipelines"].map((item, idx) => (
                     <span key={idx} className="px-sm py-1 bg-surface-container text-primary dark:bg-primary dark:text-on-primary font-bold text-[11px] rounded">
                       {item}
                     </span>

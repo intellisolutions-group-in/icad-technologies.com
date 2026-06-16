@@ -69,11 +69,11 @@ export const blogArticles: Record<string, BlogArticle> = {
     excerpt: "Strategies for modern CIOs to maintain operational efficiency while scaling across diverse cloud environments without vendor lock-in.",
     contentHtml: `
       <p class="text-body-lg font-body-lg text-on-surface-variant mb-xl leading-relaxed">
-        Multi-cloud is no longer an active design choice; it is an organic reality. As mergers, acquisitions, and department-level SaaS adoptions accumulate, enterprises naturally find themselves managing resources across AWS, Azure, and Google Cloud.
+        Multi-cloud is no longer an active design choice; it is an organic reality. As mergers, acquisitions, and department-level SaaS adoptions accumulate, enterprises naturally find themselves managing resources across multiple major cloud platforms.
       </p>
       <h2 class="text-headline-lg font-headline-lg text-primary mb-md mt-xl">Avoiding Vendor Lock-In</h2>
       <p class="text-body-md font-body-md text-on-surface-variant mb-md leading-relaxed">
-        The key to scaling multi-cloud is abstraction. By defining your resources in Terraform and packaging your binaries in containers, you can migrate work from one provider to another without rewriting code.
+        The key to scaling multi-cloud is abstraction. By defining your resources in infrastructure-as-code tools and packaging your binaries in containers, you can migrate work from one provider to another without rewriting code.
       </p>
     `,
     relatedSlugs: ["the-future-of-ai-in-enterprise-infrastructure", "edge-computing-the-new-frontier"]
@@ -112,7 +112,7 @@ export const blogArticles: Record<string, BlogArticle> = {
     authorBio: "The ICAD Systems Lab conducts advanced research into high-performance computing architectures, autonomous workloads, and enterprise hardware orchestration.",
     coverImage: "/images/enterprise_erp.png",
     coverImageAlt: "Modern steel and glass corporate skyscraper.",
-    excerpt: "How green computing and sustainable IT practices are driving measurable profitability for Fortune 500 manufacturing firms.",
+    excerpt: "How green computing and sustainable IT practices are driving measurable profitability for large manufacturing firms.",
     contentHtml: `
       <p class="text-body-lg font-body-lg text-on-surface-variant mb-xl leading-relaxed">
         Green IT is no longer just a marketing slogan. In the era of high electricity demands for AI training, reducing your compute footprint directly impacts operational costs.
@@ -206,7 +206,7 @@ export const blogArticles: Record<string, BlogArticle> = {
   },
   "designing-design-systems-bridging-figma-and-tailwind": {
     slug: "designing-design-systems-bridging-figma-and-tailwind",
-    title: "Designing Design Systems: Bridging Figma and Tailwind",
+    title: "Designing Design Systems: Bridging Design Tools and Utility CSS",
     category: "UI/UX Design",
     tagline: "DESIGN ARCHITECTURE",
     readTime: "8 min read",
@@ -216,8 +216,8 @@ export const blogArticles: Record<string, BlogArticle> = {
     authorImage: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%2318181b'/%3E%3Ccircle cx='50' cy='50' r='30' fill='none' stroke='%23ff4b2b' stroke-width='4'/%3E%3Cpath d='M50 35 L50 65 M35 50 L65 50' stroke='%23ff4b2b' stroke-width='4'/%3E%3C/svg%3E",
     authorBio: "The ICAD Systems Lab conducts advanced research into high-performance computing architectures, autonomous workloads, and enterprise hardware orchestration.",
     coverImage: "/images/ui_ux_design.png",
-    coverImageAlt: "Clean, responsive Figma UI canvas with grid layouts.",
-    excerpt: "Best practices for aligning Figma design tokens with Tailwind utility variables to accelerate frontend development velocity.",
+    coverImageAlt: "Clean, responsive UI design canvas with grid layouts.",
+    excerpt: "Best practices for aligning design tokens with utility CSS variables to accelerate frontend development velocity.",
     contentHtml: `
       <p class="text-body-lg font-body-lg text-on-surface-variant mb-xl leading-relaxed">
         Building high-fidelity pages quickly requires unified tokens. Translating core design variables directly into Tailwind configs simplifies changes and keeps styles consistent.

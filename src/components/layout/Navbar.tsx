@@ -10,9 +10,9 @@ const serviceCategories = [
   {
     title: "Development & Design",
     items: [
-      { name: "Web Development", href: "/services/web-development", desc: "React, Next.js, Node.js builds", icon: Laptop },
+      { name: "Web Development", href: "/services/web-development", desc: "Modern web application builds", icon: Laptop },
       { name: "Mobile App Development", href: "/services/mobile-app-development", desc: "iOS, Android native & hybrid", icon: Laptop },
-      { name: "UI/UX Design", href: "/services/ui-ux-design", desc: "Figma design systems", icon: Laptop },
+      { name: "UI/UX Design", href: "/services/ui-ux-design", desc: "Design systems & interfaces", icon: Laptop },
       { name: "Branding Services", href: "/services/branding", desc: "Identity & logo engineering", icon: Laptop },
     ]
   },
@@ -20,7 +20,7 @@ const serviceCategories = [
     title: "Enterprise Solutions",
     items: [
       { name: "Custom ERP Solutions", href: "/services/erp-solutions", desc: "Integrated operational hubs", icon: Database },
-      { name: "Custom CRM Solutions", href: "/services/crm-solutions", desc: "Salesforce & HubSpot setups", icon: Database },
+      { name: "Custom CRM Solutions", href: "/services/crm-solutions", desc: "Enterprise CRM integrations", icon: Database },
       { name: "IT Consulting", href: "/services/it-consulting", desc: "Planning & audits roadmap", icon: HelpCircle },
     ]
   },
@@ -39,7 +39,7 @@ const serviceCategories = [
     items: [
       { name: "Data BI & Analytics", href: "/services/data-analytics", desc: "Data warehousing & BI boards", icon: BarChart3 },
       { name: "SEO Services", href: "/services/seo", desc: "Technical search optimization", icon: Search },
-      { name: "Google Ads", href: "/services/google-ads", desc: "Programmatic acquisition", icon: Megaphone },
+      { name: "Paid Search", href: "/services/google-ads", desc: "Programmatic acquisition", icon: Megaphone },
       { name: "Digital Marketing", href: "/services/digital-marketing", desc: "Lifecycle automation email", icon: Megaphone },
     ]
   }

@@ -236,7 +236,7 @@ export default function CareersFilterGrid() {
  
                   <div className="space-y-xs">
                     <label className="block text-label-sm font-bold text-zinc-700 dark:text-zinc-300">
-                      LinkedIn / Portfolio URL
+                      Portfolio URL
                     </label>
                     <input
                       type="url"

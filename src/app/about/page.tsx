@@ -271,7 +271,7 @@ export default function AboutPage() {
   return (
     <div ref={pageRef}>
       <title>About Us | ICAD Technologies</title>
-      <meta name="description" content="Discover ICAD Technologies' legacy, architectural methodologies, core engineering pillars, and global operational presence spanning 45 countries." />
+      <meta name="description" content="Discover ICAD Technologies' legacy, architectural methodologies, core engineering pillars, and operational presence across India." />
       <Navbar />
       <main className="flex-1 mt-20">
         {/* Hero Section */}
@@ -281,7 +281,7 @@ export default function AboutPage() {
           description="For over two decades, ICAD Technologies has been the silent engine behind complex infrastructure, digital transformation, and sovereign security solutions for enterprise clients."
           heroImage="/images/about_office.png"
           heroImageAlt="Futuristic office buildings against twilight skies."
-          primaryBtnText="Download Fact Sheet"
+          primaryBtnText="Contact Us"
           primaryBtnLink="/contact"
           isDark={true}
           minHeightClass="min-h-[819px]"
@@ -508,11 +508,11 @@ export default function AboutPage() {
                 Build the Future with Us
               </h2>
               <p className="text-on-primary/75 max-w-2xl font-body-lg text-body-lg">
-                We are looking for elite engineers, visionary consultants, and daring problem solvers to join our global mission.
+                We are looking for elite engineers, visionary consultants, and daring problem solvers to join our mission across India.
               </p>
               <div className="flex flex-col sm:flex-row gap-md pt-md">
                 <Link href="/careers">
-                  <Button variant="secondary" size="lg">Explore Global Careers</Button>
+                  <Button variant="secondary" size="lg">Explore Careers</Button>
                 </Link>
                 <Link href="/careers#life">
                   <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10">

@@ -22,7 +22,7 @@ const categories = [
     title: "Development & Design",
     icon: Laptop,
     services: [
-      { slug: "web-development", name: "Custom Web Development", desc: "High-performance, scalable web architectures built with React, Node.js, and modern cloud stacks.", icon: "Laptop" },
+      { slug: "web-development", name: "Custom Web Development", desc: "High-performance, scalable web architectures built with modern frameworks and cloud stacks.", icon: "Laptop" },
       { slug: "mobile-app-development", name: "Native Mobile Apps", desc: "Premium iOS and Android experiences focusing on fluidity, security, and user retention.", icon: "Laptop" },
       { slug: "ui-ux-design", name: "UI/UX Strategy", desc: "Conversion-driven design systems and user journey optimization for complex digital products.", icon: "Laptop" },
       { slug: "branding", name: "Brand Identity", desc: "Comprehensive social media management and brand narrative development.", icon: "Laptop" }
@@ -34,7 +34,7 @@ const categories = [
     icon: Database,
     services: [
       { slug: "erp-solutions", name: "Bespoke ERP Implementation", desc: "Streamline your operations with customized ERP systems that integrate finance, logistics, and HR.", icon: "Database" },
-      { slug: "crm-solutions", name: "CRM Customization", desc: "Maximize customer lifecycle value with Salesforce and HubSpot integrations tailored to your sales DNA.", icon: "Database" },
+      { slug: "crm-solutions", name: "CRM Customization", desc: "Maximize customer lifecycle value with enterprise CRM integrations tailored to your sales DNA.", icon: "Database" },
       { slug: "it-consulting", name: "Legacy Migration & IT Consulting", desc: "Modernize outdated monolithic systems into agile, cloud-ready architectures without downtime.", icon: "HelpCircle" }
     ]
   },
@@ -44,7 +44,7 @@ const categories = [
     icon: Brain,
     services: [
       { slug: "ai-ml", name: "Generative AI Solutions", desc: "Deploy custom LLMs and RAG-based systems to automate knowledge work and enhance customer support.", icon: "Brain" },
-      { slug: "data-analytics", name: "Data Warehousing & BI", desc: "Unified data lakes and warehouses built on Snowflake, BigQuery, and Azure for cross-departmental BI.", icon: "BarChart3" }
+      { slug: "data-analytics", name: "Data Warehousing & BI", desc: "Unified data lakes and warehouses built on modern cloud platforms for cross-departmental BI.", icon: "BarChart3" }
     ]
   },
   {
@@ -52,7 +52,7 @@ const categories = [
     title: "Infrastructure & Security",
     icon: Cloud,
     services: [
-      { slug: "cloud-infrastructure", name: "Cloud Architecture (AWS/Azure)", desc: "Multi-region cloud strategies designed for high uptime and dynamic autoscaling capabilities.", icon: "Cloud" },
+      { slug: "cloud-infrastructure", name: "Cloud Architecture", desc: "Multi-region cloud strategies designed for high uptime and dynamic autoscaling capabilities.", icon: "Cloud" },
       { slug: "cybersecurity", name: "Cybersecurity & Protection", desc: "Secure and robust security frameworks including penetration testing and continuous security operations centers.", icon: "Shield" },
       { slug: "hosting", name: "Managed Edge Hosting", desc: "Edge CDN, load balancing, and DNS resolution setups configured for fast TTFB latency.", icon: "Cloud" },
       { slug: "devops", name: "DevOps & CI/CD Services", desc: "Automate packaging and deployment cycles to achieve stable, zero-downtime releases.", icon: "Cloud" }
@@ -64,7 +64,7 @@ const categories = [
     icon: Megaphone,
     services: [
       { slug: "seo", name: "Advanced SEO", desc: "Technical SEO audits and content strategies to dominate search rankings.", icon: "Search" },
-      { slug: "google-ads", name: "Paid Acquisition", desc: "ROI-focused PPC campaigns across Google, LinkedIn, and programmatic networks.", icon: "Megaphone" },
+      { slug: "google-ads", name: "Paid Acquisition", desc: "ROI-focused PPC campaigns across search, social, and programmatic networks.", icon: "Megaphone" },
       { slug: "digital-marketing", name: "Growth Marketing", desc: "Lifecycle automation and segmented drip campaigns for lead nurturing.", icon: "Megaphone" }
     ]
   }

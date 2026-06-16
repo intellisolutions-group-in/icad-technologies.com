@@ -125,7 +125,7 @@ export default function PrivacyPage() {
                 <ul className="list-disc pl-md text-body-md text-on-surface-variant dark:text-on-primary-container/85 space-y-xs">
                   <li>To verify security authorizations and govern microservice gateway API calls.</li>
                   <li>To analyze usage metrics and accelerate core site speeds.</li>
-                  <li>To process contact inquiries, deliver requested whitepapers, and organize architectural consultations.</li>
+                  <li>To process contact inquiries and organize architectural consultations.</li>
                 </ul>
               </div>
 
@@ -156,7 +156,7 @@ export default function PrivacyPage() {
                   If you have inquiries regarding this privacy statement or our secure data practices, please reach out to our privacy desk:
                 </p>
                 <p className="text-body-md font-bold text-secondary">
-                  Email: info@icadtechnologies.com
+                  Email: info@icad-technologies.com
                 </p>
               </div>
 

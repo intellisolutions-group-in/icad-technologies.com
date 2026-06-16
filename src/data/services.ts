@@ -78,7 +78,7 @@ export const servicesData: Record<string, ServiceData> = {
     heroImageAlt: "A developer working on high-performance web architecture across multiple monitors in a high-tech studio.",
     metrics: [
       { value: "High", label: "Latency Reduction" },
-      { value: "Near-Perfect", label: "Uptime Guarantee" }
+      { value: "High", label: "Uptime Reliability" }
     ],
     challengesTitle: "The Burden of Modern UX",
     challengesDesc: "Beyond aesthetics, high-performance web development solves for latency, accessibility, and conversion friction.",
@@ -98,11 +98,11 @@ export const servicesData: Record<string, ServiceData> = {
     competencies: [
       { title: "Progressive Web Apps", desc: "App-like experiences delivered through the browser with offline capabilities and push notifications.", icon: "install_mobile" },
       { title: "Headless CMS", desc: "Decoupled content management for multi-channel distribution using Contentful, Strapi, or Sanity.", icon: "database" },
-      { title: "React / Next.js Mastery", desc: "Complex single-page applications built with state-of-the-art frontend frameworks and robust state management.", icon: "dynamic_form" },
+      { title: "Modern Web Framework Mastery", desc: "Complex single-page applications built with state-of-the-art frontend frameworks and robust state management.", icon: "dynamic_form" },
       { title: "Performance Tuning", desc: "Optimizing Core Web Vitals to achieve perfect Lighthouse scores and superior search rankings.", icon: "bolt" }
     ],
     techStackTitle: "Our Engineering DNA",
-    techStack: ["Next.js", "Tailwind CSS", "Node.js", "TypeScript", "GraphQL", "AWS"],
+    techStack: ["Modern Web Frameworks", "Utility CSS", "Node.js", "TypeScript", "GraphQL", "Cloud Platforms"],
     processTitle: "Transparent Agile Methodology",
     processSteps: [
       { step: "A", title: "Discovery & Blueprinting", desc: "Defining technical requirements, user personas, and a comprehensive project roadmap." },
@@ -112,7 +112,7 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     faqTitle: "Technical Specifications FAQ",
     faqs: [
-      { q: "How do you ensure web performance scores?", a: "We utilize Next.js for hybrid static & server rendering, image optimization, and code splitting. Every build passes a rigorous Lighthouse audit before production." },
+      { q: "How do you ensure web performance scores?", a: "We utilize modern web frameworks for hybrid static and server rendering, image optimization, and code splitting. Every build passes a rigorous Lighthouse audit before production." },
       { q: "Do you support legacy system integration?", a: "Yes, we specialize in building middleware layers and APIs to bridge modern frontends with existing legacy ERP or CRM systems." },
       { q: "What is your approach to mobile-first design?", a: "We design for the most constrained environments first, ensuring core functionality is perfect on mobile before layering advanced desktop features." },
       { q: "How do you handle project security?", a: "Security is integrated into the CI/CD pipeline. We conduct regular dependency audits, utilize HTTPS, and implement CSRF/XSS protection by default." }
@@ -139,34 +139,34 @@ export const servicesData: Record<string, ServiceData> = {
     challengesTitle: "The Mobile Friction Problem",
     challengesDesc: "In mobile, milliseconds determine retention. We architect apps to optimize startup times and memory usage.",
     challenges: [
-      { title: "App Store Optimization", desc: "Building according to Apple Human Interface Guidelines and Google Material Design to clear reviews fast.", icon: "install_mobile" },
+      { title: "App Store Optimization", desc: "Building according to platform design guidelines to clear reviews efficiently.", icon: "install_mobile" },
       { title: "Offline Capabilities", desc: "Implementing resilient local caching so that your users can complete tasks without continuous internet connectivity.", icon: "database" },
       { title: "Battery & Performance", desc: "Minimizing thread blocks and render cycle overhead to guarantee fluid fluid scrolling.", icon: "bolt" }
     ],
     approachTitle: "Our Mobile Engineering Approach",
     bentoItems: [
       { title: "Native Excellence", desc: "Writing Swift and Kotlin for high-compute tasks that demand direct hardware access and peak performance.", cols: 6, bgClass: "bg-primary text-on-primary", textClass: "text-primary-fixed-dim", imageUrl: "/images/mobile_development.png", imageAlt: "Sleek iOS and Android native app interface on dark background" },
-      { title: "Hybrid Efficiency", desc: "Deploying React Native and Flutter codebases that reduce time-to-market by up to 50% while retaining native feel.", cols: 6, bgClass: "bg-surface-container-highest text-primary", textClass: "text-on-surface-variant", imageUrl: "/images/software_engineering.png", imageAlt: "Mobile app codebase editor screen" }
+      { title: "Hybrid Efficiency", desc: "Deploying cross-platform codebases that reduce time-to-market significantly while retaining native feel.", cols: 6, bgClass: "bg-surface-container-highest text-primary", textClass: "text-on-surface-variant", imageUrl: "/images/software_engineering.png", imageAlt: "Mobile app codebase editor screen" }
     ],
     competenciesTitle: "Core Competencies",
     competencies: [
       { title: "Native Swift / Kotlin", desc: "Platform-specific software designed for deepest integration and zero abstraction performance.", icon: "terminal" },
-      { title: "React Native / Flutter", desc: "Cross-platform capability offering shared business logic and consistent UI across platforms.", icon: "dynamic_form" },
+      { title: "Cross-Platform Frameworks", desc: "Cross-platform capability offering shared business logic and consistent UI across platforms.", icon: "dynamic_form" },
       { title: "Security Protocols", desc: "Defense-grade biometrics integration, keychain encryption, and secure network handshakes.", icon: "security" },
       { title: "Analytics & Tracking", desc: "Rich instrumentation using Firebase, Mixpanel, and crash report collectors.", icon: "query_stats" }
     ],
     techStackTitle: "Mobile DNA",
-    techStack: ["Swift", "Kotlin", "React Native", "Flutter", "Firebase", "SQLite"],
+    techStack: ["Swift", "Kotlin", "Cross-Platform Frameworks", "Mobile Backend Services", "Local Databases"],
     processTitle: "Mobile Lifecycle Development",
     processSteps: [
       { step: "A", title: "Interactive Mockups", desc: "Mapping out exact screen transitions and micro-interactions before coding." },
-      { step: "B", title: "Sprint Releases", desc: "Bi-weekly test flights pushed directly to TestFlight and Google Play Console beta." },
+      { step: "B", title: "Sprint Releases", desc: "Bi-weekly test flights pushed directly to platform beta channels." },
       { step: "C", title: "Hardened Testing", desc: "Validating against thousands of device configurations using virtual test grids." },
       { step: "D", title: "App Store Launch", desc: "Handling listing assets, metadata localization, and initial user feedback loops." }
     ],
     faqTitle: "Mobile App FAQ",
     faqs: [
-      { q: "Should we build Native or Cross-Platform?", a: "If your app requires intensive hardware access (complex camera, background processing, raw GPU compute), native is recommended. For typical data-driven business apps, cross-platform with React Native is highly efficient." },
+      { q: "Should we build Native or Cross-Platform?", a: "If your app requires intensive hardware access (complex camera, background processing, raw GPU compute), native is recommended. For typical data-driven business apps, cross-platform development is highly efficient." },
       { q: "How do you handle security?", a: "We encrypt all local storage data, integrate biometric authentication natively, pin SSL certificates, and screen-lock the app during backgrounding." }
     ],
     crossSell: {
@@ -196,16 +196,16 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     approachTitle: "Design System Architecture",
     bentoItems: [
-      { title: "Atomic Design System", desc: "Crafting structured Figma components with strict properties mapping to Tailwind variables.", cols: 12, bgClass: "bg-primary text-on-primary", textClass: "text-primary-fixed-dim", imageUrl: "/images/ui_ux_design.png", imageAlt: "Figma UI design tokens and layout wireframes" }
+      { title: "Atomic Design System", desc: "Crafting structured design components with strict properties mapping to utility CSS variables.", cols: 12, bgClass: "bg-primary text-on-primary", textClass: "text-primary-fixed-dim", imageUrl: "/images/ui_ux_design.png", imageAlt: "UI design tokens and layout wireframes" }
     ],
     competenciesTitle: "Core Competencies",
     competencies: [
-      { title: "Design System Design", desc: "Robust Figma structures with advanced auto-layout and responsive constraints.", icon: "palette" },
+      { title: "Design System Design", desc: "Robust design tool structures with advanced auto-layout and responsive constraints.", icon: "palette" },
       { title: "User Research & Audits", desc: "Competitor analyses, persona mapping, and usability testing with target demographics.", icon: "groups" },
       { title: "Interactive Prototyping", desc: "High-fidelity micro-interactions and animations showing exact user flow animations.", icon: "draw" }
     ],
     techStackTitle: "Our Creative Toolkit",
-    techStack: ["Figma", "Adobe CC", "Framer", "Lottie", "Tailwind", "Storybook"],
+    techStack: ["Design Tools", "Creative Suite", "Prototyping Tools", "Animation Libraries", "Utility CSS", "Component Libraries"],
     processTitle: "Human-Centered Design Loop",
     processSteps: [
       { step: "A", title: "Empathy & Research", desc: "Conducting user interviews and mapping out behavioral journeys." },
@@ -215,11 +215,11 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     faqTitle: "Design FAQ",
     faqs: [
-      { q: "Do you supply Figma files?", a: "Yes, our clients receive full ownership of clean, tokenized Figma files with structured components and variants." }
+      { q: "Do you supply design source files?", a: "Yes, our clients receive full ownership of clean, tokenized design files with structured components and variants." }
     ],
     crossSell: {
       title: "Ready to code your design?",
-      desc: "Our frontend engineering team converts Figma systems to Next.js layouts with pixel perfection.",
+      desc: "Our frontend engineering team converts design systems to production layouts with pixel perfection.",
       btnText: "Explore Web Development",
       link: "/services/web-development"
     }
@@ -253,7 +253,7 @@ export const servicesData: Record<string, ServiceData> = {
       { title: "Financial Ledger Systems", desc: "Multi-currency ledgers, tax integrations, and automated operational reporting.", icon: "query_stats" }
     ],
     techStackTitle: "Enterprise Frameworks",
-    techStack: ["Java/Spring Boot", "PostgreSQL", "React", "Docker", "Kubernetes", "SAP Integrations"],
+    techStack: ["Java/Spring Boot", "PostgreSQL", "Modern Web Frameworks", "Docker", "Kubernetes", "Enterprise ERP Integrations"],
     processTitle: "Corporate Integration Flow",
     processSteps: [
       { step: "A", title: "Operational Blueprint", desc: "Shadowing teams to outline standard operating procedures and system workflows." },
@@ -268,12 +268,12 @@ export const servicesData: Record<string, ServiceData> = {
     slug: "crm-solutions",
     title: "Custom CRM Customization",
     tagline: "Customer Lifecycle",
-    description: "Maximize customer lifetime value with Salesforce and HubSpot integrations tailored to your sales team's specific DNA.",
+    description: "Maximize customer lifetime value with enterprise CRM integrations tailored to your sales team's specific DNA.",
     category: "enterprise",
     heroImage: "/images/crm_solutions.png",
     heroImageAlt: "Sales charts and customer interactions grid.",
     metrics: [
-      { value: "+30%", label: "Lead Conversions" },
+      { value: "Improved", label: "Lead Conversions" },
       { value: "Enhanced", label: "Pipeline Visibility" }
     ],
     challengesTitle: "Unorganized Lead Pipes",
@@ -287,11 +287,11 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     competenciesTitle: "CRM Focus Areas",
     competencies: [
-      { title: "Salesforce Customization", desc: "Apex coding, custom page overrides, and custom trigger developments.", icon: "terminal" },
-      { title: "HubSpot Automation", desc: "Workflows setups, landing page systems, and database cleanups.", icon: "dynamic_form" }
+      { title: "CRM Platform Customization", desc: "Custom workflows, page overrides, and trigger developments.", icon: "terminal" },
+      { title: "Marketing Automation", desc: "Workflows setups, landing page systems, and database cleanups.", icon: "dynamic_form" }
     ],
     techStackTitle: "Supported CRMs",
-    techStack: ["Salesforce", "HubSpot", "Microsoft Dynamics", "OAuth 2.0 API Integrations"],
+    techStack: ["Enterprise CRM Platforms", "Marketing Automation Tools", "OAuth 2.0 API Integrations"],
     processTitle: "CRM Onboarding Process",
     processSteps: [
       { step: "A", title: "Funnel Assessment", desc: "Auditing lead acquisition sources and qualification pipelines." },
@@ -331,7 +331,7 @@ export const servicesData: Record<string, ServiceData> = {
       { title: "Computer Vision", desc: "Object recognition, document digitization, and product quality checks.", icon: "precision_manufacturing" }
     ],
     techStackTitle: "AI Tech Stack",
-    techStack: ["Python", "PyTorch", "Hugging Face", "LangChain", "OpenAI API", "AWS SageMaker"],
+    techStack: ["Python", "ML Frameworks", "AI Model APIs", "LLM Orchestration", "Cloud ML Services"],
     processTitle: "Model Training & Deployment",
     processSteps: [
       { step: "A", title: "Data Wrangling", desc: "Cleansing and labeling structured and unstructured corporate datasets." },
@@ -346,18 +346,18 @@ export const servicesData: Record<string, ServiceData> = {
     slug: "cloud-infrastructure",
     title: "Cloud Infrastructure & Transformation",
     tagline: "Infrastructure Engineering",
-    description: "Provisioning high-availability, multi-region cloud infrastructures configured for elastic auto-scaling and 99.99% uptime.",
+    description: "Provisioning high-availability, multi-region cloud infrastructures configured for elastic auto-scaling and reliable uptime.",
     category: "infra",
     heroImage: "/images/cloud_architecture.png",
     heroImageAlt: "Abstract representation of cloud computing nodes on a light background.",
     metrics: [
-      { value: "Near-Perfect", label: "Uptime SLA" },
-      { value: "-35%", label: "Cloud Spend" }
+      { value: "High", label: "Uptime Reliability" },
+      { value: "Reduced", label: "Cloud Spend" }
     ],
     challengesTitle: "Infrastructure Bloat",
     challengesDesc: "Misconfigured cloud setups create resource waste and expose services to outage risks.",
     challenges: [
-      { title: "Single Point Failure", desc: "Designing system redundancies across multiple AWS zones and regions.", icon: "cloud_done" }
+      { title: "Single Point Failure", desc: "Designing system redundancies across multiple cloud zones and regions.", icon: "cloud_done" }
     ],
     approachTitle: "Infrastructure as Code",
     bentoItems: [
@@ -369,7 +369,7 @@ export const servicesData: Record<string, ServiceData> = {
       { title: "Cost Optimization Audits", desc: "Analyzing utilization metrics to cut monthly hosting charges without performance hits.", icon: "query_stats" }
     ],
     techStackTitle: "Cloud Ecosystem",
-    techStack: ["AWS", "Azure", "Terraform", "Docker", "Kubernetes", "Prometheus"],
+    techStack: ["Cloud Platforms", "Infrastructure as Code", "Container Orchestration", "Monitoring Tools"],
     processTitle: "Migration Methodology",
     processSteps: [
       { step: "A", title: "Cloud Audit", desc: "Mapping out current server configurations and resource allocations." },
@@ -377,7 +377,7 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     faqTitle: "Cloud Architecture FAQ",
     faqs: [
-      { q: "Do you support hybrid cloud environments?", a: "Yes, we connect private local servers to public clouds (AWS/Azure) using secure VPN tunnels and transit gateways." }
+      { q: "Do you support hybrid cloud environments?", a: "Yes, we connect private local servers to public cloud platforms using secure VPN tunnels and transit gateways." }
     ]
   },
   "devops": {
@@ -390,7 +390,7 @@ export const servicesData: Record<string, ServiceData> = {
     heroImageAlt: "Developer monitoring CI/CD deployment pipelines on multiple monitors.",
     metrics: [
       { value: "Enhanced", label: "Deployment Velocity" },
-      { value: "0.1%", label: "Release Rollbacks" }
+      { value: "Minimal", label: "Release Rollbacks" }
     ],
     challengesTitle: "Bottlenecked Releases",
     challengesDesc: "Manual testing and configuration management slows release times and introduces human error.",
@@ -403,11 +403,11 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     competenciesTitle: "Core Competencies",
     competencies: [
-      { title: "GitHub Actions / GitLab CI", desc: "Constructing fast workflow files that run unit tests on every pull request.", icon: "terminal" },
+      { title: "CI/CD Pipeline Setup", desc: "Constructing fast workflow files that run unit tests on every pull request.", icon: "terminal" },
       { title: "Containerization", desc: "Packaging systems in Docker containers to guarantee environments stay identical from staging to production.", icon: "database" }
     ],
     techStackTitle: "DevOps DNA",
-    techStack: ["GitHub Actions", "GitLab CI", "Docker", "Helm", "Kubernetes", "Jenkins"],
+    techStack: ["CI/CD Platforms", "Container Tools", "Helm Charts", "Orchestration", "Build Automation"],
     processTitle: "Automation Roadmap",
     processSteps: [
       { step: "A", title: "Pipeline Audit", desc: "Identifying manual steps in current code deployment loops." },
@@ -445,7 +445,7 @@ export const servicesData: Record<string, ServiceData> = {
       { title: "Infrastructure Hardening", desc: "Preparing and structuring high-performance infrastructures to satisfy robust security standards.", icon: "admin_panel_settings" }
     ],
     techStackTitle: "Security Stack",
-    techStack: ["Vault", "Okta", "WAF", "SIEM Tools", "AWS GuardDuty", "SonarQube"],
+    techStack: ["Secrets Management", "Identity Providers", "WAF", "SIEM Tools", "Threat Detection", "Code Analysis"],
     processTitle: "SecOps Implementation",
     processSteps: [
       { step: "A", title: "Threat Audit", desc: "Evaluating current network topologies and database permissions." },
@@ -466,7 +466,7 @@ export const servicesData: Record<string, ServiceData> = {
     heroImageAlt: "Sleek server racks stretching into a misty distance inside a high-tech data center.",
     metrics: [
       { value: "High", label: "Latency Reduction" },
-      { value: "Near-Perfect", label: "SLA Uptime" }
+      { value: "High", label: "Uptime Reliability" }
     ],
     challengesTitle: "Why Milliseconds Matter",
     challengesDesc: "Traditional centralized hosting creates bottlenecks. As your user base grows globally, latency leads to abandonment and lost revenue.",
@@ -498,7 +498,7 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     faqTitle: "Frequently Asked Questions",
     faqs: [
-      { q: "What is the guaranteed uptime?", a: "We provide a 99.99% uptime SLA across our global edge nodes, backed by financial credits if performance metrics fall below agreed thresholds." },
+      { q: "What uptime can we expect?", a: "We design for high availability across edge nodes with performance targets defined in your service agreement." },
       { q: "How does the gateway handle DDoS attacks?", a: "Our gateway includes L3/L4/L7 DDoS protection that automatically scrubs malicious traffic at the edge before it reaches your origin servers." },
       { q: "Can I use my existing SSL certificates?", a: "Yes, you can upload custom certificates or use our automated managed certificate service powered by industry-standard CAs." },
       { q: "Where are your edge nodes deployed?", a: "We operate a distributed network of edge nodes across major transit routes to provide high-performance caching, low-latency API delivery, and DNS steering." }
@@ -513,7 +513,7 @@ export const servicesData: Record<string, ServiceData> = {
     heroImage: "/images/growth_metrics.png",
     heroImageAlt: "Glowing interactive database visualization panels and charts.",
     metrics: [
-      { value: "1M+", label: "Processed Rows/Day" },
+      { value: "High-Volume", label: "Processed Rows/Day" },
       { value: "Real-time", label: "Latency Rates" }
     ],
     challengesTitle: "Siloed Corporate Data",
@@ -523,15 +523,15 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     approachTitle: "Unified Business Intelligence",
     bentoItems: [
-      { title: "Data Lakehouse Setup", desc: "Constructing cloud data warehouses using Snowflake and BigQuery to power multi-department metrics.", cols: 12, bgClass: "bg-surface-container-high text-primary", textClass: "text-on-surface-variant", imageUrl: "/images/growth_metrics.png", imageAlt: "Data lakehouse warehouses and business intelligence statistics" }
+      { title: "Data Lakehouse Setup", desc: "Constructing cloud data warehouses using modern platforms to power multi-department metrics.", cols: 12, bgClass: "bg-surface-container-high text-primary", textClass: "text-on-surface-variant", imageUrl: "/images/growth_metrics.png", imageAlt: "Data lakehouse warehouses and business intelligence statistics" }
     ],
     competenciesTitle: "Core Competencies",
     competencies: [
-      { title: "Custom BI Dashboards", desc: "Structuring clear user-friendly boards in Looker, Tableau, or custom React code.", icon: "monitoring" },
+      { title: "Custom BI Dashboards", desc: "Structuring clear user-friendly boards in leading BI tools or custom web code.", icon: "monitoring" },
       { title: "ETL / ELT Pipelines", desc: "Building pipelines using dbt and Airflow to clean, sort, and transform database tables.", icon: "account_tree" }
     ],
     techStackTitle: "Data Toolkit",
-    techStack: ["Snowflake", "BigQuery", "dbt", "Apache Airflow", "Tableau", "Python"],
+    techStack: ["Cloud Data Warehouses", "ETL Pipelines", "Workflow Orchestration", "BI Platforms", "Python"],
     processTitle: "Analytics Road",
     processSteps: [
       { step: "A", title: "Source Auditing", desc: "Locating all databases, logs, and files containing company metrics." },
@@ -539,7 +539,7 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     faqTitle: "Data Analytics FAQ",
     faqs: [
-      { q: "Do you support real-time data streaming?", a: "Yes, we integrate tools like Apache Kafka and AWS Kinesis to feed real-time user events straight into your dashboard boards." }
+      { q: "Do you support real-time data streaming?", a: "Yes, we integrate stream processing tools to feed real-time user events straight into your dashboard boards." }
     ]
   },
   "seo": {
@@ -551,8 +551,8 @@ export const servicesData: Record<string, ServiceData> = {
     heroImage: "/images/seo.png",
     heroImageAlt: "Visualizing search metrics and rising chart paths.",
     metrics: [
-      { value: "100%", label: "Average Traffic Boost" },
-      { value: "No. 1", label: "Ranking Goals" }
+      { value: "Improved", label: "Traffic Growth" },
+      { value: "Strong", label: "Ranking Performance" }
     ],
     challengesTitle: "The Search Competition",
     challengesDesc: "Search engines penalize slow websites with poor content markup. Organic growth requires precision.",
@@ -569,7 +569,7 @@ export const servicesData: Record<string, ServiceData> = {
       { title: "Technical Auditing", desc: "Eliminating duplicate pages, dead redirect loops, and optimizing XML sitemaps.", icon: "query_stats" }
     ],
     techStackTitle: "SEO Tooling",
-    techStack: ["Google Search Console", "SEMrush", "Ahrefs", "Schema JSON-LD", "Next.js Metadata"],
+    techStack: ["Search Console Tools", "SEO Analysis Platforms", "Schema JSON-LD", "Modern Web Metadata"],
     processTitle: "SEO Strategy Steps",
     processSteps: [
       { step: "A", title: "Keyword Blueprinting", desc: "Locating high-volume search phrases mapping to your products." },
@@ -582,15 +582,15 @@ export const servicesData: Record<string, ServiceData> = {
   },
   "google-ads": {
     slug: "google-ads",
-    title: "Google Ads Management",
+    title: "Paid Search Management",
     tagline: "Paid Acquisition",
     description: "Maximize return on ad spend with programmatic campaign structures, intent-driven keyword targeting, and conversion rate optimization.",
     category: "marketing",
     heroImage: "/images/growth_metrics.png",
     heroImageAlt: "Financial metrics showing rising conversions and ROI figures.",
     metrics: [
-      { value: "4.5x", label: "Average ROI Ratio" },
-      { value: "-25%", label: "CPA Reduction" }
+      { value: "Strong", label: "Average ROI Ratio" },
+      { value: "Reduced", label: "CPA Reduction" }
     ],
     challengesTitle: "Wasted Advertising Spend",
     challengesDesc: "Bidding on generic search queries and directing traffic to slow, irrelevant lander pages drains cash pools.",
@@ -599,7 +599,7 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     approachTitle: "ROAS Engineering",
     bentoItems: [
-      { title: "Intent Funnel Targeting", desc: "Restructuring campaigns to split budgets between brand protection, competitor search, and product intent keywords.", cols: 12, bgClass: "bg-surface-container-high text-primary", textClass: "text-on-surface-variant", imageUrl: "/images/growth_metrics.png", imageAlt: "Google Ads conversion funnel tracking" }
+      { title: "Intent Funnel Targeting", desc: "Restructuring campaigns to split budgets between brand protection, competitor search, and product intent keywords.", cols: 12, bgClass: "bg-surface-container-high text-primary", textClass: "text-on-surface-variant", imageUrl: "/images/growth_metrics.png", imageAlt: "Paid search conversion funnel tracking" }
     ],
     competenciesTitle: "Ad Competencies",
     competencies: [
@@ -607,13 +607,13 @@ export const servicesData: Record<string, ServiceData> = {
       { title: "Lander Optimization", desc: "Coding fast, responsive landing pages designed to secure high Quality Scores.", icon: "bolt" }
     ],
     techStackTitle: "Ad Systems",
-    techStack: ["Google Ads Editor", "Google Tag Manager", "GA4", "Lander A/B Testers", "Scripts Console"],
+    techStack: ["Paid Search Platforms", "Tag Management", "Web Analytics", "Landing Page Testers", "Automation Scripts"],
     processTitle: "Ads Workflow",
     processSteps: [
       { step: "A", title: "Structure Blueprint", desc: "Setting up negative lists, budget parameters, and keyword matches." },
       { step: "B", title: "Launch & Test", desc: "Deploying ad groups and immediately starting A/B copy tests." }
     ],
-    faqTitle: "Google Ads FAQ",
+    faqTitle: "Paid Search FAQ",
     faqs: [
       { q: "How is your management model structured?", a: "We work on a custom advisory and management structure based on client scope, ensuring alignment with your target goals." }
     ]
@@ -627,8 +627,8 @@ export const servicesData: Record<string, ServiceData> = {
     heroImage: "/images/growth_metrics.png",
     heroImageAlt: "Interacting dashboards tracking organic and paid social metrics.",
     metrics: [
-      { value: "3x", label: "Pipeline Velocity" },
-      { value: "50%+", label: "Retention Gains" }
+      { value: "Accelerated", label: "Pipeline Velocity" },
+      { value: "Enhanced", label: "Retention Gains" }
     ],
     challengesTitle: "Disconnected Channels",
     challengesDesc: "Running isolated marketing campaigns without central attribution models leads to uncoordinated user journeys.",
@@ -645,7 +645,7 @@ export const servicesData: Record<string, ServiceData> = {
       { title: "Email Lifecycle Automations", desc: "Segmented email distributions designed to retain current customers and cross-sell.", icon: "install_mobile" }
     ],
     techStackTitle: "Growth Stack",
-    techStack: ["HubSpot", "Klaviyo", "Meta Ads Manager", "Google Analytics 4", "Hotjar"],
+    techStack: ["Marketing Automation", "Email Platforms", "Social Ad Platforms", "Web Analytics", "Heatmap Tools"],
     processTitle: "Growth Methodology",
     processSteps: [
       { step: "A", title: "Attribution Audit", desc: "Confirming that all user actions are accurately tracked in reporting engines." },
@@ -653,7 +653,7 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     faqTitle: "Digital Marketing FAQ",
     faqs: [
-      { q: "How do you track user conversion paths?", a: "We configure server-side conversions through Google Tag Manager and GA4, minimizing browser tracking loss." }
+      { q: "How do you track user conversion paths?", a: "We configure server-side conversions through tag management and analytics platforms, minimizing browser tracking loss." }
     ]
   },
   "branding": {
@@ -683,7 +683,7 @@ export const servicesData: Record<string, ServiceData> = {
       { title: "Presentation Systems", desc: "Designing premium template slide decks for sales and investor pitches.", icon: "draw" }
     ],
     techStackTitle: "Creative Toolkit",
-    techStack: ["Adobe CC", "Figma", "Typography Engines", "Asset Repositories"],
+    techStack: ["Creative Suite", "Design Tools", "Typography Engines", "Asset Repositories"],
     processTitle: "Identity Blueprint",
     processSteps: [
       { step: "A", title: "Core Discovery", desc: "Pinpointing target brand values and positioning parameters." },
@@ -691,7 +691,7 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     faqTitle: "Branding FAQ",
     faqs: [
-      { q: "What deliverables are included in branding projects?", a: "Clients receive full vector source assets, font files, and a comprehensive Brand Guidelines PDF document." }
+      { q: "What deliverables are included in branding projects?", a: "Clients receive full vector source assets, font files, and a comprehensive brand guidelines document." }
     ]
   },
   "it-consulting": {
@@ -704,7 +704,7 @@ export const servicesData: Record<string, ServiceData> = {
     heroImageAlt: "Executive advisors evaluating technological roadmaps.",
     metrics: [
       { value: "Absolute", label: "Strategic Alignment" },
-      { value: "20+", label: "Vetted Architects" }
+      { value: "Dedicated", label: "Expert Architects" }
     ],
     challengesTitle: "Technology Stagnation",
     challengesDesc: "Outdated software environments stop company innovation. Roadmaps must bridge legacy code with modern APIs.",
@@ -721,7 +721,7 @@ export const servicesData: Record<string, ServiceData> = {
       { title: "Feasibility Appraisals", desc: "Evaluating software, integration costs, and implementation schedules.", icon: "query_stats" }
     ],
     techStackTitle: "Architecture Frameworks",
-    techStack: ["TOGAF", "Agile SAFe", "AWS Well-Architected", "ITIL standards"],
+    techStack: ["Enterprise Architecture Frameworks", "Agile Methodologies", "Cloud Architecture Standards", "IT Service Management"],
     processTitle: "Consulting Roadmap",
     processSteps: [
       { step: "A", title: "Operational Audit", desc: "Interviewing engineering leads and auditing infrastructure metrics." },

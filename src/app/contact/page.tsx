@@ -223,7 +223,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="text-label-sm font-label-sm text-on-surface-variant dark:text-on-primary-container/70">General Support</p>
-                    <p className="text-body-lg font-bold text-primary dark:text-on-primary">info@icadtechnologies.com</p>
+                    <p className="text-body-lg font-bold text-primary dark:text-on-primary">info@icad-technologies.com</p>
                   </div>
                 </div>
               </div>

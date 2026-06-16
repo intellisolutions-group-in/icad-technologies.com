@@ -7,7 +7,6 @@ import {
   Wrench,
   Calendar,
   ArrowRight,
-  Download,
   Share2,
   Users,
   Globe,
@@ -198,21 +197,21 @@ export default function ThankYouPage() {
 
           </div>
 
-          {/* Whitepapers & Resources */}
+          {/* Expert Insights */}
           <div className="lg:col-span-8 bg-surface-container dark:bg-primary-container/30 rounded-xl p-lg flex flex-col md:flex-row items-center gap-lg border border-outline-variant/20 dark:border-primary-fixed-dim/10">
             <div className="flex-grow space-y-md">
               <h3 className="text-headline-lg font-headline-lg text-primary dark:text-on-primary">
                 Expert Insights for the Modern CTO
               </h3>
               <p className="text-body-md text-on-surface-variant dark:text-on-primary-container/85 max-w-xl">
-                Download our latest research on Cybersecurity Resilience and the ROI of Private Cloud Infrastructure.
+                Contact us to discuss cybersecurity resilience and private cloud infrastructure strategy.
               </p>
               <div className="flex flex-wrap gap-md">
                 <Link href="/contact" className="flex items-center gap-xs text-primary dark:text-on-primary font-label-md hover:text-secondary dark:hover:text-secondary-fixed transition-colors cursor-pointer">
-                  <Download className="w-4 h-4" /> Whitepaper: Cyber 2026
+                  <ArrowRight className="w-4 h-4" /> Cybersecurity Insights
                 </Link>
                 <Link href="/contact" className="flex items-center gap-xs text-primary dark:text-on-primary font-label-md hover:text-secondary dark:hover:text-secondary-fixed transition-colors cursor-pointer">
-                  <Download className="w-4 h-4" /> Report: AI Scalability
+                  <ArrowRight className="w-4 h-4" /> AI Scalability Strategy
                 </Link>
               </div>
             </div>
@@ -232,7 +231,7 @@ export default function ThankYouPage() {
             <div>
               <h3 className="text-headline-md font-headline-md mb-md">Stay Ahead of the Curve</h3>
               <p className="text-body-md opacity-90 mb-lg max-w-md">
-                Follow our executive team for daily insights on digital transformation and emerging tech.
+                Follow ICAD Technologies for insights on digital transformation and emerging tech.
               </p>
             </div>
             

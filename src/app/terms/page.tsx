@@ -179,7 +179,7 @@ export default function TermsPage() {
                   If you have any questions or require clarification regarding these terms, please contact our administrative legal desk:
                 </p>
                 <p className="text-body-md font-bold text-secondary">
-                  Email: info@icadtechnologies.com
+                  Email: info@icad-technologies.com
                 </p>
               </div>
 

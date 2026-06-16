@@ -25,7 +25,7 @@ const robotoMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ICAD Technologies | Global Excellence in Tech Consulting",
+  title: "ICAD Technologies | Excellence in Tech Consulting",
   description: "Strategic tech consulting and high-performance digital engineering for enterprise leaders.",
   metadataBase: new URL("https://icadtech.com"),
   icons: {
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     shortcut: "/favicon/favicon.ico",
   },
   openGraph: {
-    title: "ICAD Technologies | Global Excellence in Tech Consulting",
+    title: "ICAD Technologies | Excellence in Tech Consulting",
     description: "Strategic tech consulting and high-performance digital engineering for enterprise leaders.",
     url: "/",
     siteName: "ICAD Technologies",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ICAD Technologies | Global Excellence in Tech Consulting",
+    title: "ICAD Technologies | Excellence in Tech Consulting",
     description: "Strategic tech consulting and high-performance digital engineering for enterprise leaders.",
   },
 };

@@ -239,8 +239,8 @@ export default function CareersPage() {
                     <Terminal className="w-6 h-6 text-secondary" />
                   </div>
                   <div>
-                    <p className="font-bold text-primary dark:text-on-primary">Enterprise Engineering Division</p>
-                    <p className="text-label-sm text-on-surface-variant dark:text-on-primary-container/70">Principal Solutions Architect Team</p>
+                    <p className="font-bold text-primary dark:text-on-primary">Arun Mehta</p>
+                    <p className="text-label-sm text-on-surface-variant dark:text-on-primary-container/70">Principal Solutions Architect</p>
                   </div>
                 </div>
               </div>
@@ -254,8 +254,8 @@ export default function CareersPage() {
                     <Brain className="w-6 h-6 text-secondary" />
                   </div>
                   <div>
-                    <p className="font-bold text-primary dark:text-on-primary">AI & Data Systems Lab</p>
-                    <p className="text-label-sm text-on-surface-variant dark:text-on-primary-container/70">Lead Analytics Group</p>
+                    <p className="font-bold text-primary dark:text-on-primary">Priya Sharma</p>
+                    <p className="text-label-sm text-on-surface-variant dark:text-on-primary-container/70">Lead Analytics Engineer</p>
                   </div>
                 </div>
               </div>
@@ -279,7 +279,7 @@ export default function CareersPage() {
                   <Award className="w-6 h-6 text-secondary shrink-0 mt-1" />
                   <div>
                     <h4 className="font-bold text-primary dark:text-on-primary">Professional Recognition</h4>
-                    <p className="text-label-sm text-on-surface-variant dark:text-on-primary-container/75">Clear growth paths, skill certifications, and performance-based recognition programs.</p>
+                    <p className="text-label-sm text-on-surface-variant dark:text-on-primary-container/75">Clear growth paths, professional development, and performance-based recognition programs.</p>
                   </div>
                 </div>
                 

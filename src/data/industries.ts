@@ -22,8 +22,8 @@ export const industriesData: Record<string, IndustryData> = {
     heroImage: "/images/growth_metrics.png",
     heroImageAlt: "Modern trading floor displaying multi-screen stock indices.",
     metrics: [
-      { value: "99.999%", label: "Transaction Availability" },
-      { value: "<15ms", label: "Ledger Settlement Latency" },
+      { value: "High", label: "Transaction Availability" },
+      { value: "Low", label: "Ledger Settlement Latency" },
       { value: "Encrypted", label: "Data Protection Protocols" }
     ],
     detailsTitle: "Secure Financial Architecture",
@@ -50,9 +50,9 @@ export const industriesData: Record<string, IndustryData> = {
     heroImage: "/images/enterprise_erp.png",
     heroImageAlt: "A large automated industrial assembly plant at twilight.",
     metrics: [
-      { value: "-28%", label: "Equipment Downtime" },
-      { value: "99.4%", label: "Supply Chain Accuracy" },
-      { value: "12x", label: "Inventory Turn Speed" }
+      { value: "Reduced", label: "Equipment Downtime" },
+      { value: "High", label: "Supply Chain Accuracy" },
+      { value: "Improved", label: "Inventory Turn Speed" }
     ],
     detailsTitle: "Connected Production Lines",
     detailsDesc: "Our systems connect shop-floor industrial hardware straight to executive ERP databases to enable real-time operational views.",
@@ -78,9 +78,9 @@ export const industriesData: Record<string, IndustryData> = {
     heroImage: "/images/cloud_architecture.png",
     heroImageAlt: "Stylized map showing routes and shipping hubs.",
     metrics: [
-      { value: "32%", label: "Transit Route Efficiency" },
-      { value: "99.98%", label: "Cargo Tracking Accuracy" },
-      { value: "-15%", label: "Fleet Fuel Consumption" }
+      { value: "Improved", label: "Transit Route Efficiency" },
+      { value: "High", label: "Cargo Tracking Accuracy" },
+      { value: "Reduced", label: "Fleet Fuel Consumption" }
     ],
     detailsTitle: "Dynamic Route Optimizers",
     detailsDesc: "Avoid traffic delays and routing mistakes. Our software updates fleet paths dynamically using live traffic analytics.",
@@ -107,8 +107,8 @@ export const industriesData: Record<string, IndustryData> = {
     heroImageAlt: "Highly secure sterile research lab facilities.",
     metrics: [
       { value: "Secure", label: "Privacy Standards" },
-      { value: "99.999%", label: "Records Access Uptime" },
-      { value: "<50ms", label: "Patient Query Response" }
+      { value: "High", label: "Records Access Uptime" },
+      { value: "Fast", label: "Patient Query Response" }
     ],
     detailsTitle: "Interoperable Patient Portals",
     detailsDesc: "Unifying clinical data across clinics while ensuring strict protection of patient privacy.",

@@ -59,7 +59,7 @@ export default function BlogPage() {
                   Stay Informed
                 </h2>
                 <p className="text-on-primary-container/80 font-body-md">
-                  Join 25,000+ industry leaders who receive our bi-weekly insights on technology and market leadership.
+                  Receive our bi-weekly insights on technology and market leadership.
                 </p>
 
               </div>

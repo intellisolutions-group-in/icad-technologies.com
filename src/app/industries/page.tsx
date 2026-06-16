@@ -130,7 +130,7 @@ export default function IndustriesOverviewPage() {
                   High-frequency trading architectures and secure blockchain settlement systems.
                 </p>
                 <div className="mb-lg">
-                  <div className="text-headline-md font-headline-md text-secondary">99.99%</div>
+                  <div className="text-headline-md font-headline-md text-secondary">High</div>
                   <div className="text-label-sm text-on-primary/65">Uptime Reliability</div>
                 </div>
                 <Link
@@ -220,7 +220,7 @@ export default function IndustriesOverviewPage() {
             </div>
             <div className="space-y-sm">
               <Accordion title="Hybrid Cloud Architecture">
-                We design resilient, scalable cloud environments that balance the security of on-premise hardware with the agility of public cloud providers like AWS and Azure.
+                We design resilient, scalable cloud environments that balance the security of on-premise hardware with the agility of major public cloud platforms.
               </Accordion>
               <Accordion title="Cybersecurity Resilience">
                 Our Zero-Trust framework ensures that data integrity is maintained across all industry touchpoints, protecting critical intellectual property and financial assets.
