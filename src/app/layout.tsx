@@ -27,7 +27,7 @@ const robotoMono = Roboto_Mono({
 export const metadata: Metadata = {
   title: "ICAD Technologies | Excellence in Tech Consulting",
   description: "Strategic tech consulting and high-performance digital engineering for enterprise leaders.",
-  metadataBase: new URL("https://icadtech.com"),
+  metadataBase: new URL("https://icad-technologies.com"),
   icons: {
     icon: [
       { url: "/favicon/favicon-32x32.png", sizes: "32x32", type: "image/png" },

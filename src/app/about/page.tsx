@@ -270,8 +270,6 @@ export default function AboutPage() {
 
   return (
     <div ref={pageRef}>
-      <title>About Us | ICAD Technologies</title>
-      <meta name="description" content="Discover ICAD Technologies' legacy, architectural methodologies, core engineering pillars, and operational presence across India." />
       <Navbar />
       <main className="flex-1 mt-20">
         {/* Hero Section */}

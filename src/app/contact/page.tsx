@@ -108,8 +108,6 @@ export default function ContactPage() {
 
   return (
     <div ref={containerRef}>
-      <title>Contact Our Solutions Architects | ICAD Technologies</title>
-      <meta name="description" content="Reach out to ICAD Technologies' legal, talent acquisition, or technical departments. Speak to a solutions architect about cloud, security, or enterprise development." />
       <Navbar />
       <main className="pt-28 pb-xl px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto space-y-xl">
         {/* Hero Section */}

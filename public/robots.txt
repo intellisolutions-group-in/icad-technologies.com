@@ -76,4 +76,4 @@ User-agent: Bingbot
 Allow: /
 
 # Sitemap location
-Sitemap: https://icadtech.com/sitemap.xml
+Sitemap: https://icad-technologies.com/sitemap.xml

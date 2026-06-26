@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import React from "react";
 import Link from "next/link";
 import Navbar from "@/components/layout/Navbar";
@@ -6,13 +7,20 @@ import BlogFilterGrid from "@/components/features/BlogFilterGrid";
 import Button from "@/components/ui/Button";
 import { blogArticles } from "@/data/blog";
 
+export const metadata: Metadata = {
+  title: "Enterprise Technology Blog & Insights | ICAD Technologies",
+  description: "Explore in-depth technical guides, strategic research, and expert insights on cloud architecture, cybersecurity, machine learning, and devops.",
+  openGraph: {
+    title: "Enterprise Technology Blog & Insights | ICAD Technologies",
+    description: "Explore in-depth technical guides, strategic research, and expert insights on cloud architecture, cybersecurity, machine learning, and devops.",
+  },
+};
+
 export default function BlogPage() {
   const featured = blogArticles["the-future-of-ai-in-enterprise-infrastructure"];
 
   return (
     <>
-      <title>Enterprise Technology Blog & Insights | ICAD Technologies</title>
-      <meta name="description" content="Explore in-depth technical guides, strategic research, and expert insights on cloud architecture, cybersecurity, machine learning, and devops." />
       <Navbar />
       <main className="flex-1 mt-20">
         {/* Featured Article Hero Banner */}

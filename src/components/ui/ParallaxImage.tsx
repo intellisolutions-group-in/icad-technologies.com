@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 interface ParallaxImageProps {
   src: string;
@@ -18,9 +19,11 @@ export default function ParallaxImage({
 }: ParallaxImageProps) {
   return (
     <div className={`overflow-hidden relative ${className}`}>
-      <img
+      <Image
         src={src}
         alt={alt}
+        fill
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         className={`absolute inset-0 w-full h-full object-cover transition-transform duration-700 ${imgClassName}`}
       />
     </div>

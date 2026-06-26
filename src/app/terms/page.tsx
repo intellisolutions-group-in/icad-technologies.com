@@ -39,8 +39,6 @@ export default function TermsPage() {
 
   return (
     <div ref={containerRef}>
-      <title>Terms & Conditions | ICAD Technologies</title>
-      <meta name="description" content="Review the Terms and Conditions governing your access and usage of ICAD Technologies' services, proprietary products, and edge infrastructure." />
       <Navbar />
       <main className="flex-1 mt-20 pb-xl bg-surface dark:bg-zinc-950">
         {/* Hero Banner */}
