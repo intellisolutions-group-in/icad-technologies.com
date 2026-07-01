@@ -14,7 +14,7 @@ export default function BlogFilterGrid() {
   const [searchQuery, setSearchQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
 
-  const itemsPerPage = 3;
+  const itemsPerPage = 6;
   const articles = Object.values(blogArticles);
 
   // Filtering logic
@@ -86,8 +86,6 @@ export default function BlogFilterGrid() {
                     <div className="flex items-center gap-base text-label-sm text-zinc-900 dark:text-zinc-300 font-bold tracking-widest uppercase">
                       <span>{art.tagline}</span>
                       <span>•</span>
-                      <span>{art.date}</span>
-                      <span>•</span>
                       <span>{art.readTime}</span>
                     </div>
                     <h3 className="text-headline-md font-headline-md text-primary dark:text-on-primary group-hover:text-secondary dark:group-hover:text-secondary-fixed transition-colors">
@@ -123,8 +121,8 @@ export default function BlogFilterGrid() {
                         key={page}
                         onClick={() => setCurrentPage(page)}
                         className={`w-10 h-10 rounded-full font-label-md text-label-md transition-colors cursor-pointer flex items-center justify-center ${currentPage === page
-                            ? "bg-primary text-on-primary"
-                            : "hover:bg-surface-container-high text-on-surface-variant bg-transparent border border-outline-variant/30 dark:text-zinc-300 dark:hover:bg-zinc-800"
+                          ? "bg-primary text-on-primary"
+                          : "hover:bg-surface-container-high text-on-surface-variant bg-transparent border border-outline-variant/30 dark:text-zinc-300 dark:hover:bg-zinc-800"
                           }`}
                       >
                         {page}
@@ -142,24 +140,7 @@ export default function BlogFilterGrid() {
                 </div>
               )}
 
-              {/* Editorial Cross-Sell Box */}
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-lg pt-lg">
-                <div className="lg:col-span-2 bg-primary text-on-primary rounded-xl p-lg flex flex-col justify-between group hover:bg-zinc-900 dark:hover:bg-zinc-200 transition-colors min-h-[300px]">
-                  <div>
-                    <h2 className="text-display-lg-mobile md:text-display-lg font-display-lg mb-md">
-                      Need a custom technical roadmap?
-                    </h2>
-                    <p className="text-on-primary/80 font-body-lg max-w-md">
-                      Our consultants specialize in translating complex technological trends into actionable business strategies.
-                    </p>
-                  </div>
-                  <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-md mt-xl">
-                    <Link href="/contact">
-                      <Button variant="white">Speak with an Expert</Button>
-                    </Link>
-                  </div>
-                </div>
-              </div>
+
             </div>
           )}
         </div>

@@ -24,7 +24,7 @@ export default function BlogPage() {
       <Navbar />
       <main className="flex-1 mt-20">
         {/* Featured Article Hero Banner */}
-        <section 
+        <section
           className="px-margin-mobile md:px-margin-desktop py-xl"
           data-cursor-guide="Featured Article - Industry-leading insights"
         >
@@ -51,8 +51,6 @@ export default function BlogPage() {
                   </p>
                   <div className="flex items-center gap-sm text-surface-variant font-label-md">
                     <span>Featured Article</span>
-                    <span>•</span>
-                    <span>{featured.date}</span>
                     <span>•</span>
                     <span>{featured.readTime}</span>
                   </div>

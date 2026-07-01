@@ -100,10 +100,7 @@ export default async function BlogDetailPage({ params }: BlogPageProps) {
               </div>
 
               <div className="flex items-center gap-lg ml-auto text-label-sm text-on-surface-variant dark:text-on-primary-container/85 font-mono">
-                <div className="flex items-center gap-xs">
-                  <Calendar className="w-4 h-4 text-secondary" />
-                  <span>{article.date}</span>
-                </div>
+
                 <div className="flex items-center gap-xs">
                   <Clock className="w-4 h-4 text-secondary" />
                   <span>{article.readTime}</span>

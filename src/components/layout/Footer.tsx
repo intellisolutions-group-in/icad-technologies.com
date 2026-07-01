@@ -174,7 +174,7 @@ export default function Footer() {
         <p className="text-label-sm text-on-surface-variant dark:text-on-primary-container/70 text-center leading-relaxed">
           © 2003 - {new Date().getFullYear()} ICAD Technologies. All rights reserved. Excellence in Tech Consulting.
         </p>
-        
+
         <div className="flex items-center gap-lg">
           <div className="flex gap-lg text-label-sm text-on-surface-variant dark:text-on-primary-container/70">
             <Link href="/privacy" className="hover:text-secondary">
@@ -184,17 +184,8 @@ export default function Footer() {
               Terms
             </Link>
           </div>
-          
-          {/* Circular Pill Widget holding Sitemap Icon */}
-          <Link
-            href="/sitemap.xml"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-8 h-8 rounded-full border border-outline dark:border-outline-variant/30 bg-surface/60 dark:bg-primary-container/30 p-1.5 flex items-center justify-center hover:border-secondary hover:text-secondary transition-all"
-            title="Sitemap"
-          >
-            <Network className="w-4 h-4 text-on-surface-variant dark:text-on-primary-container/70 hover:text-secondary" />
-          </Link>
+
+
         </div>
       </div>
     </footer>
