@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="w-full py-xl px-margin-mobile md:px-margin-desktop bg-surface-container-highest border-t border-outline-variant/30 text-on-surface dark:bg-primary dark:text-on-primary">
       {/* Grid of Links (Top) */}
-      <div className="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-gutter mb-xl">
+      <div className="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-5 gap-gutter mb-xl">
         {/* Column 1: Brand Info */}
         <div className="space-y-md">
           <Link href="/" className="inline-block group">
@@ -144,6 +144,27 @@ export default function Footer() {
               >
                 Privacy Policy
               </Link>
+            </li>
+          </ul>
+        </div>
+
+        {/* Column 5: Contact Info */}
+        <div>
+          <h4 className="text-headline-sm font-headline-sm text-primary dark:text-on-primary mb-md">
+            Contact Us
+          </h4>
+          <ul className="space-y-md">
+            <li className="text-on-surface-variant dark:text-on-primary-container/80 text-label-sm font-label-sm leading-relaxed">
+              <strong className="block mb-1 text-primary dark:text-on-primary">Headquarters:</strong>
+              Shikshapatri Business Hub, 408-410,<br />
+              above Kalyan Jewellers, nr. Reliance Cross Road,<br />
+              Sargasan, Gandhinagar, Gujarat 382419
+            </li>
+            <li className="text-on-surface-variant dark:text-on-primary-container/80 text-label-sm font-label-sm">
+              <strong className="block mb-1 text-primary dark:text-on-primary">Email:</strong>
+              <a href="mailto:info@icad-technologies.com" className="hover:text-secondary hover:underline transition-all">
+                info@icad-technologies.com
+              </a>
             </li>
           </ul>
         </div>
