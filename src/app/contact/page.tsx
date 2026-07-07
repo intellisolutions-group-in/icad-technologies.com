@@ -2,7 +2,7 @@
 
 import React, { useState, useRef } from "react";
 import { useRouter } from "next/navigation";
-import { Phone, Mail, Check } from "lucide-react";
+import { Phone, Mail, Check, MapPin } from "lucide-react";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import Button from "@/components/ui/Button";
@@ -87,7 +87,7 @@ export default function ContactPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!validate()) return;
- 
+
     setIsSubmitting(true);
     try {
       // Simulate form submission delay client-side
@@ -98,11 +98,11 @@ export default function ContactPage() {
     } finally {
       setIsSubmitting(false);
     }
- 
+
     sessionStorage.setItem("inquiryName", formData.name);
     sessionStorage.setItem("inquiryEmail", formData.email);
     sessionStorage.setItem("inquiryDept", formData.department);
- 
+
     router.push("/thank-you");
   };
 
@@ -137,14 +137,13 @@ export default function ContactPage() {
                   type="text"
                   value={formData.name}
                   onChange={handleInputChange}
-                  className={`bg-surface dark:bg-primary-container text-on-surface dark:text-on-primary border rounded-lg p-md outline-none focus:ring-1 focus:ring-secondary ${
-                    errors.name ? "border-error" : "border-outline-variant dark:border-primary-fixed-dim/20"
-                  }`}
+                  className={`bg-surface dark:bg-primary-container text-on-surface dark:text-on-primary border rounded-lg p-md outline-none focus:ring-1 focus:ring-secondary ${errors.name ? "border-error" : "border-outline-variant dark:border-primary-fixed-dim/20"
+                    }`}
                   placeholder="John Doe"
                 />
                 {errors.name && <span className="text-error text-label-sm px-xs">{errors.name}</span>}
               </div>
-              
+
               <div className="flex flex-col gap-xs">
                 <label className="text-label-sm font-label-sm text-on-surface-variant dark:text-on-primary-container/75 px-xs">
                   Corporate Email
@@ -154,9 +153,8 @@ export default function ContactPage() {
                   type="email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  className={`bg-surface dark:bg-primary-container text-on-surface dark:text-on-primary border rounded-lg p-md outline-none focus:ring-1 focus:ring-secondary ${
-                    errors.email ? "border-error" : "border-outline-variant dark:border-primary-fixed-dim/20"
-                  }`}
+                  className={`bg-surface dark:bg-primary-container text-on-surface dark:text-on-primary border rounded-lg p-md outline-none focus:ring-1 focus:ring-secondary ${errors.email ? "border-error" : "border-outline-variant dark:border-primary-fixed-dim/20"
+                    }`}
                   placeholder="john@company.com"
                 />
                 {errors.email && <span className="text-error text-label-sm px-xs">{errors.email}</span>}
@@ -188,9 +186,8 @@ export default function ContactPage() {
                   value={formData.message}
                   onChange={handleInputChange}
                   rows={4}
-                  className={`bg-surface dark:bg-primary-container text-on-surface dark:text-on-primary border rounded-lg p-md outline-none resize-none focus:ring-1 focus:ring-secondary ${
-                    errors.message ? "border-error" : "border-outline-variant dark:border-primary-fixed-dim/20"
-                  }`}
+                  className={`bg-surface dark:bg-primary-container text-on-surface dark:text-on-primary border rounded-lg p-md outline-none resize-none focus:ring-1 focus:ring-secondary ${errors.message ? "border-error" : "border-outline-variant dark:border-primary-fixed-dim/20"
+                    }`}
                   placeholder="Briefly describe your requirements..."
                 />
                 {errors.message && <span className="text-error text-label-sm px-xs">{errors.message}</span>}
@@ -227,7 +224,23 @@ export default function ContactPage() {
               </div>
             </div>
 
-
+            {/* Office Address */}
+            <div className="neumorphic-raised p-lg space-y-md">
+              <h3 className="font-headline-md text-headline-md text-primary dark:text-on-primary">Office Location</h3>
+              <div className="space-y-md">
+                <div className="flex items-start gap-md">
+                  <div className="w-10 h-10 rounded-full bg-surface-container-high dark:bg-primary flex items-center justify-center shrink-0">
+                    <MapPin className="w-5 h-5 text-secondary" />
+                  </div>
+                  <div>
+                    <p className="text-label-sm font-label-sm text-on-surface-variant dark:text-on-primary-container/70">Headquarters</p>
+                    <p className="text-body-md text-primary dark:text-on-primary leading-relaxed">
+                      Shikshapatri Business Hub, 408-410, above Kalyan Jewellers, nr. Reliance Cross Road, Sargasan, Gandhinagar, Gujarat 382419
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </main>
