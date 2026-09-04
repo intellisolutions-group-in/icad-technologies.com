@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X, ChevronDown, Laptop, Shield, Brain, Cloud, Database, BarChart3, Search, Megaphone, HelpCircle, Coins, Factory, Truck, Activity } from "lucide-react";
+import { FacebookIcon, InstagramIcon } from "@/components/ui/SocialIcons";
 
 const serviceCategories = [
   {
@@ -271,6 +272,27 @@ export default function Navbar() {
             >
               Contact Us
             </Link>
+
+            <div className="flex items-center justify-center gap-4 pt-4 mt-2 border-t border-outline-variant/30">
+              <a
+                href="https://www.facebook.com/profile.php?id=61592601221880"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="w-10 h-10 rounded-full bg-surface-container-high dark:bg-white/10 border border-outline-variant/40 dark:border-white/10 flex items-center justify-center text-on-surface dark:text-on-primary hover:text-secondary dark:hover:text-secondary-fixed transition-colors"
+              >
+                <FacebookIcon className="w-5 h-5" />
+              </a>
+              <a
+                href="https://www.instagram.com/icad_technology/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="w-10 h-10 rounded-full bg-surface-container-high dark:bg-white/10 border border-outline-variant/40 dark:border-white/10 flex items-center justify-center text-on-surface dark:text-on-primary hover:text-secondary dark:hover:text-secondary-fixed transition-colors"
+              >
+                <InstagramIcon className="w-5 h-5" />
+              </a>
+            </div>
           </div>
         </div>
       )}

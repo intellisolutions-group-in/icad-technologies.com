@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Handshake, Network } from "lucide-react";
+import { Handshake } from "lucide-react";
+import { FacebookIcon, InstagramIcon } from "@/components/ui/SocialIcons";
 
 export default function Footer() {
   return (
@@ -23,6 +24,26 @@ export default function Footer() {
           <p className="text-body-md text-on-surface-variant dark:text-on-primary-container/85 max-w-xs leading-relaxed">
             Leaders in high-performance enterprise technology consulting and architectural implementation.
           </p>
+          <div className="flex items-center gap-3 pt-2">
+            <a
+              href="https://www.facebook.com/profile.php?id=61592601221880"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Follow ICAD Technologies on Facebook"
+              className="w-9 h-9 rounded-full bg-surface-container-high dark:bg-white/10 border border-outline-variant/40 dark:border-white/10 flex items-center justify-center text-on-surface-variant dark:text-on-primary hover:text-secondary dark:hover:text-secondary-fixed hover:border-secondary dark:hover:border-secondary hover:scale-110 active:scale-95 transition-all duration-200 shadow-sm"
+            >
+              <FacebookIcon className="w-4 h-4" />
+            </a>
+            <a
+              href="https://www.instagram.com/icad_technology/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Follow ICAD Technologies on Instagram"
+              className="w-9 h-9 rounded-full bg-surface-container-high dark:bg-white/10 border border-outline-variant/40 dark:border-white/10 flex items-center justify-center text-on-surface-variant dark:text-on-primary hover:text-secondary dark:hover:text-secondary-fixed hover:border-secondary dark:hover:border-secondary hover:scale-110 active:scale-95 transition-all duration-200 shadow-sm"
+            >
+              <InstagramIcon className="w-4 h-4" />
+            </a>
+          </div>
         </div>
 
         {/* Column 2: Solutions */}

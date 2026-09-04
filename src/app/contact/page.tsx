@@ -3,6 +3,7 @@
 import React, { useState, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { Phone, Mail, Check, MapPin } from "lucide-react";
+import { FacebookIcon, InstagramIcon } from "@/components/ui/SocialIcons";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import Button from "@/components/ui/Button";
@@ -239,6 +240,47 @@ export default function ContactPage() {
                     </p>
                   </div>
                 </div>
+              </div>
+            </div>
+
+            {/* Social Channels */}
+            <div className="neumorphic-raised p-lg space-y-md">
+              <h3 className="font-headline-md text-headline-md text-primary dark:text-on-primary">Connect With Us</h3>
+              <p className="text-label-sm font-label-sm text-on-surface-variant dark:text-on-primary-container/70">
+                Follow our official social channels for announcements, insights, and career updates.
+              </p>
+              <div className="grid grid-cols-2 gap-3 pt-1">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61592601221880"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                  className="flex items-center gap-2.5 p-3 rounded-xl border border-outline-variant/50 hover:border-secondary dark:border-white/10 dark:hover:border-secondary bg-surface dark:bg-primary-container/60 hover:bg-surface-container-high dark:hover:bg-primary transition-all duration-200 group/soc"
+                >
+                  <div className="w-8 h-8 rounded-lg bg-surface-container-high dark:bg-white/10 flex items-center justify-center text-secondary group-hover/soc:scale-110 transition-transform">
+                    <FacebookIcon className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <div className="text-label-sm font-bold text-on-surface dark:text-on-primary group-hover/soc:text-secondary transition-colors">Facebook</div>
+                    <div className="text-[10px] text-on-surface-variant dark:text-on-primary-container/70">@icad-tech</div>
+                  </div>
+                </a>
+
+                <a
+                  href="https://www.instagram.com/icad_technology/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                  className="flex items-center gap-2.5 p-3 rounded-xl border border-outline-variant/50 hover:border-secondary dark:border-white/10 dark:hover:border-secondary bg-surface dark:bg-primary-container/60 hover:bg-surface-container-high dark:hover:bg-primary transition-all duration-200 group/soc"
+                >
+                  <div className="w-8 h-8 rounded-lg bg-surface-container-high dark:bg-white/10 flex items-center justify-center text-secondary group-hover/soc:scale-110 transition-transform">
+                    <InstagramIcon className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <div className="text-label-sm font-bold text-on-surface dark:text-on-primary group-hover/soc:text-secondary transition-colors">Instagram</div>
+                    <div className="text-[10px] text-on-surface-variant dark:text-on-primary-container/70">@icad_technology</div>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
