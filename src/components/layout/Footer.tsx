@@ -26,7 +26,7 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-3 pt-2">
             <a
-              href="https://www.facebook.com/profile.php?id=61592601221880"
+              href="https://www.facebook.com/icadtechnologiess/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Follow ICAD Technologies on Facebook"

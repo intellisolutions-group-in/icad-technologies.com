@@ -275,7 +275,7 @@ export default function Navbar() {
 
             <div className="flex items-center justify-center gap-4 pt-4 mt-2 border-t border-outline-variant/30">
               <a
-                href="https://www.facebook.com/profile.php?id=61592601221880"
+                href="https://www.facebook.com/icadtechnologiess/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"

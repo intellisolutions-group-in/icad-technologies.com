@@ -251,7 +251,7 @@ export default function ContactPage() {
               </p>
               <div className="grid grid-cols-2 gap-3 pt-1">
                 <a
-                  href="https://www.facebook.com/profile.php?id=61592601221880"
+                  href="https://www.facebook.com/icadtechnologiess/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Facebook"
@@ -262,7 +262,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <div className="text-label-sm font-bold text-on-surface dark:text-on-primary group-hover/soc:text-secondary transition-colors">Facebook</div>
-                    <div className="text-[10px] text-on-surface-variant dark:text-on-primary-container/70">@icad-tech</div>
+                    <div className="text-[10px] text-on-surface-variant dark:text-on-primary-container/70">@icadtechnologiess</div>
                   </div>
                 </a>
 
